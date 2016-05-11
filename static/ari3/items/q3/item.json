@@ -1,0 +1,178 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "ari_url": "/static/ari3/items/q3/index.html",
+    "id": "1470",
+    "item": {
+      "format": "eq",
+      "version": "12",
+      "bankkey": "187",
+      "associatedpassage": "3691",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1470"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA06_PT_CEBOX_Q3"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG6::Perf::SP13 (3); PracTest::MG6::Perf::SP13::BRAILLE (3); PracTest::MG6::Perf::SP13::ENU::Refresh (3); PracTest::MG6::Perf::SP13::BRL::Refresh (3); PracTest::MG6::Perf::SP13::ESN::Refresh (3);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "6",
+            "desc": "6"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "EquationEditor"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "2 pts."
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3691"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1074",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1625",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1470_v12.qrx" },
+      "RendererSpec": { "filename": "Item_1470_v12.eax" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "12",
+          "stem": "<p style=\"\">Determine the surface area, <span style=\"font-style:italic; \">S</span>, in square inches, of the <span id=\"item_1470_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>current<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_7\" data-tag-boundary=\"end\"></span> <span id=\"item_1470_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>cereal<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_12\" data-tag-boundary=\"end\"></span> box with <span id=\"item_1470_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>dimensions<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_8\" data-tag-boundary=\"end\"></span> 12 inches <span id=\"item_1470_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>high<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_9\" data-tag-boundary=\"end\"></span>, 8 inches <span id=\"item_1470_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>wide<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_10\" data-tag-boundary=\"end\"></span>, and 2 inches <span id=\"item_1470_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>deep<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_11\" data-tag-boundary=\"end\"></span>.</p><p style=\"\"><span id=\"item_1470_TAG_1_BEGIN\"><span style=\"font-style:italic; \">S</span> = __ in<span style=\"vertical-align:super; font-size: 58%;\">2</span></span></p>",
+          "rubriclist": {
+            "rubric": {
+              "name": "Rubric ",
+              "val": "<p style=\"\">&#xA0;</p><p style=\"\">Exemplar:</p><p style=\"\">&#xA0;</p><p style=\"\">2-point response:</p><p style=\"\">&#xA0;</p><p style=\"\">272 (the total surface area of the box in square inches)</p><p style=\"vertical-align:super; font-size: 58%;\">&#xA0;</p><p style=\"vertical-align: 0%;font-size: 100%;\">1-point response:</p><p style=\"vertical-align: 0%;font-size: 100%;\">(Accept partial credit for the following common mistakes)</p><p style=\"vertical-align: 0%;font-size: 100%;\">136 (only accounts for half of the sides; does not multiply by 2)</p><p style=\"vertical-align: 0%;font-size: 100%;\">176 (forgets one of the 12x8 faces)</p><p style=\"vertical-align: 0%;font-size: 100%;\">248 (forgets one of the 12x2 sides)</p><p style=\"vertical-align: 0%;font-size: 100%;\">256 (forgets one of the 8x2 sides)</p><p style=\"vertical-align: 0%;font-size: 100%;\">80 &#xA0;(forgets both 12x8 faces)</p><p style=\"vertical-align: 0%;font-size: 100%;\">224 (forgets both 12x2 sides)</p><p style=\"vertical-align: 0%;font-size: 100%;\">240 (forgets both 8x2 sides)</p><p style=\"vertical-align: 0%;font-size: 100%;\">&#xA0;</p>"
+            },
+            "samplelist": {
+              
+            }
+          },
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "item_1470_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "item_1470_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae7",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1470_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "S equals, blank, square inches. From left to right and top to bottom the equation tool reeds, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, point.",
+                    "textToSpeechPronunciationAlternate": "S = __ in2"
+                  },
+                  "brailleText": { "brailleTextString": "S = __ in2" }
+                }
+              }
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "12",
+          "stem": "<p style=\"\">Determina el área de la superficie, <span style=\"font-style:italic; \">S</span>, en pulgadas cuadradas, de la caja de cereal actual con dimensiones de 12 pulgadas de altura, 8 pulgadas de ancho y 2 pulgadas de profundidad.</p><p style=\"\">&#xA0;</p><p style=\"\"><span style=\"font-style:italic; \">S</span> = __ pulg<span style=\"vertical-align:super; font-size: 58%;\">2</span></p><p class=\"languagedivider\">&#xA0;</p><p style=\"\">Determine the surface area, <span style=\"font-style:italic; \">S</span>, in square inches, of the <span id=\"item_1470_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>current<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_7\" data-tag-boundary=\"end\"></span> <span id=\"item_1470_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>cereal<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_12\" data-tag-boundary=\"end\"></span> box with <span id=\"item_1470_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>dimensions<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_8\" data-tag-boundary=\"end\"></span> 12 inches <span id=\"item_1470_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>high<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_9\" data-tag-boundary=\"end\"></span>, 8 inches <span id=\"item_1470_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>wide<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_10\" data-tag-boundary=\"end\"></span>, and 2 inches <span id=\"item_1470_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>deep<span class=\"its-tag\" data-tag-ref=\"item_1470_TAG_11\" data-tag-boundary=\"end\"></span>.</p><p style=\"\">&#xA0;</p><p style=\"\"><span id=\"item_1470_TAG_1_BEGIN\"><span style=\"font-style:italic; \">S</span> = __ in<span style=\"vertical-align:super; font-size: 58%;\">2</span></span></p>",
+          "rubriclist": {
+            "rubric": {
+              "scorepoint": "_Spanish",
+              "name": "Rubric _Spanish",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              "maxval": "_Spanish",
+              "minval": "_Spanish"
+            }
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae7",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1470_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "S equals, blank, square inches. From left to right and top to bottom the equation tool reeds, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, point.",
+                    "textToSpeechPronunciationAlternate": "S = __ in2"
+                  },
+                  "brailleText": { "brailleTextString": "S = __ in2" }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

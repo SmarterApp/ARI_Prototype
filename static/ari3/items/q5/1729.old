@@ -1,0 +1,172 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "EBSR",
+      "id": "1729",
+      "version": "5",
+      "bankkey": "187",
+      "associatedpassage": "3717",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1729"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "ELA"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "Around the World in Seventy-Two Days"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "ELA Training 6-8::SP 14 (4); ELA Training 6-8::SP 14::Braille (4);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "C",
+            "desc": "C"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "6",
+            "desc": "6"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "EBSR",
+            "desc": "Evidence-Based Selected Response 4"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "EBSR"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt.",
+            "desc": "1 Point"
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3717"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1769",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1767",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1729_v5.qrx" },
+      "content": {
+        "language": "ENU",
+        "version": "2.0",
+        "approvedVersion": "5",
+        "qti": {
+          "spec": "itemBody",
+		  "items": {
+			"stem": "<p style=\"\"><p style=\"\">The following question has two parts. First, answer part A. Then, answer part B. </p></p>",
+			"promts": [
+               {
+					"stem": "<p style=\"\">Which conclusion about the speakers is <span id=\"item_1729_TAG_1_BEGIN\"><span style=\"font-weight:bold; \">best</span></span> supported by evidence from the presentation?</p>",
+					"choice": [
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"A\" value=\"A\"/><span>A</span></label><p style=\"\">She finds her job at the newspaper <span id=\"item_1729_TAG_2\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>rewarding<span class=\"its-tag\" data-tag-ref=\"item_1729_TAG_2\" data-tag-boundary=\"end\"></span>.</p>",
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"B\" value=\"B\"/><span>B</span></label><p style=\"\">She has difficult relationships with her bosses.</p>",
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"C\" value=\"C\"/><span>C</span></label><p style=\"\">She has a great deal of <span id=\"item_1729_TAG_3\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>confidence<span class=\"its-tag\" data-tag-ref=\"item_1729_TAG_3\" data-tag-boundary=\"end\"></span> in her abilities.</p>",
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"D\" value=\"D\"/><span>A</span></label><p style=\"\">She <span id=\"item_1729_TAG_4\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>lacks<span class=\"its-tag\" data-tag-ref=\"item_1729_TAG_4\" data-tag-boundary=\"end\"></span> the skills necessary to achieve her goals.</p>"
+					]
+				},
+				{
+					"stem": "<p style=\"\">Which quotation from the presentation <span style=\"font-weight:bold; \">best</span> supports your answer in part A? </p>",
+					"choice": [
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"A\" value=\"A\"/><p style=\"\">“‘I want to go around the world in eighty days or less.’”</p>",
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"B\" value=\"B\"/><p style=\"\">“‘Besides you speak nothing but English, so there is no use talking about it.’”</p>",
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"C\" value=\"C\"/><p style=\"\">“‘Start the man, and I'll start the same day for some other newspaper and <span id=\"item_1729_TAG_5\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>beat<span class=\"its-tag\" data-tag-ref=\"item_1729_TAG_5\" data-tag-boundary=\"end\"></span> him.’”</p>",
+						"<label class=\"ebsrbox\"><input type=\"checkbox\" name=\"D\" value=\"D\"/><p style=\"\">“. . . I was made happy by the promise that if any one was <span id=\"item_1729_TAG_6\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>commissioned<span class=\"its-tag\" data-tag-ref=\"item_1729_TAG_6\" data-tag-boundary=\"end\"></span> to make the trip, I should be that one.”</p>"
+					]
+				}
+			]
+
+			}
+        },
+        "attachmentlist": {
+          "attachment": [
+            {
+              "id": "braillefile1",
+              "type": "BRF",
+              "subtype": "contracted",
+              "file": "item_1729_enu_contracted.brf"
+            },
+            {
+              "id": "braillefile2",
+              "type": "BRF",
+              "subtype": "uncontracted",
+              "file": "item_1729_enu_uncontracted.brf"
+            },
+            {
+              "id": "ASL_EBSR1",
+              "type": "ASL",
+              "file": "Item_1729_ASL_EBSR1.mp4",
+              "subtype": "Targeted",
+              "target": "EBSR1"
+            },
+            {
+              "id": "ASL_EBSR2",
+              "type": "ASL",
+              "file": "Item_1729_ASL_EBSR2.mp4",
+              "subtype": "Targeted",
+              "target": "EBSR2"
+            }
+          ]
+        },
+        "apipAccessibility": {
+          "accessibilityInfo": {
+            "accessElement": {
+              "identifier": "ae1",
+              "contentLinkInfo": {
+                "itsLinkIdentifierRef": "item_1729_TAG_1_BEGIN",
+                "type": "Text"
+              },
+              "relatedElementInfo": {
+                "readAloud": {
+                  "textToSpeechPronunciation": ", best,",
+                  "textToSpeechPronunciationAlternate": ", best,"
+                },
+                "brailleText": { "brailleTextString": "best" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

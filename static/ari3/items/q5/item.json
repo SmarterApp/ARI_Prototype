@@ -1,0 +1,90 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "ari_url": "/static/ari3/items/q5/index.html",
+    "id": "3717",
+    "passage": {
+      "version": "3",
+      "bankkey": "187",
+	  "items": [
+		 	{"order": 1, "json": "1729.json"}
+	  ],
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3717"
+          },
+          {
+            "attid": "stm_pass_subject",
+            "name": "Stim: Subject",
+            "val": "ELA"
+          },
+          {
+            "attid": "stm_pass_desc",
+            "name": "Stim: Description",
+            "val": "Around the World in Seventy-Two Days"
+          }
+        ]
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1758",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "content": {
+        "language": "ENU",
+        "version": "2.0",
+        "approvedVersion": "3",
+        "title": "&#xA0;",
+        "author": "&#xA0;",
+        "stem": "<p style=\"font-weight:bold; \">Around the World in Seventy-Two <span id=\"passage_3717_TAG_1_BEGIN\">Days</span></p><p style=\"font-weight:normal; \">&#xA0;</p><p style=\"font-weight:normal; \">Listen to the presentation. Then answer the questions.</p><p style=\"font-weight:normal; \">&#xA0;</p><p style=\"font-weight:normal; \"><audio controls><source src=\"/static/ari3/items/q5/passage_3717_v3_3717_audio.ogg\" type=\"audio/ogg\" /><source src=\"/static/ari3/items/q5/passage_3717_v3_3717_audio.m4a\" type=\"audio/mp4\" /><track src=\"/static/ari3/items/q5/passage_3717_v3_3717_audio.vtt\" kind=\"captions\" label=\"English\" srclang=\"en\" /></audio></p><p style=\"font-weight:normal; \">&#xA0;</p><p style=\"\"><span id=\"passage_3717_TAG_2\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>Excerpt<span class=\"its-tag\" data-tag-ref=\"passage_3717_TAG_2\" data-tag-boundary=\"end\"></span> from <span style=\"font-style:italic; \">Around the World in Seventy-Two Days</span> by Nellie Bly. In the <span id=\"passage_3717_TAG_3\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>public domain<span class=\"its-tag\" data-tag-ref=\"passage_3717_TAG_3\" data-tag-boundary=\"end\"></span>.</p>",
+        "attachmentlist": {
+          "attachment": [
+            {
+              "id": "braillefile1",
+              "type": "BRF",
+              "subtype": "contracted",
+              "file": "passage_3717_enu_contracted.brf"
+            },
+            {
+              "id": "braillefile2",
+              "type": "BRF",
+              "subtype": "uncontracted",
+              "file": "passage_3717_enu_uncontracted.brf"
+            },
+            {
+              "pass": "true",
+              "id": "aslfile1",
+              "type": "ASL",
+              "subtype": "STEM",
+              "file": "passage_3717_ASL_STEM.MP4"
+            }
+          ]
+        },
+        "apipAccessibility": {
+          "accessibilityInfo": {
+            "accessElement": {
+              "identifier": "ae1",
+              "contentLinkInfo": {
+                "itsLinkIdentifierRef": "passage_3717_TAG_1_BEGIN",
+                "type": "Text"
+              },
+              "relatedElementInfo": {
+                "readAloud": {
+                  "textToSpeechPronunciation": "Days.",
+                  "textToSpeechPronunciationAlternate": "Days"
+                },
+                "brailleText": { "brailleTextString": "Days" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

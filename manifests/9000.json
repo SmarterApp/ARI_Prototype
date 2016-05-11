@@ -1,0 +1,140 @@
+{	
+	identifier: null,
+	assessment_subject: "MATH",
+	assessment_version: "1",
+	assessment_grade: 5,
+	ari_verion: 1,
+	randomize: false,
+	items: [
+		{	
+			js_files: "/ari/js/standard.js",
+			send_data: "/api/score",
+			identifier: 1598,
+			div: 'container',
+			item_type: "multiple_choice",
+			item_subject: "MATH",
+			item_version: 7,
+			ari_version: 1,
+			order: 1,
+			description: "Cloned from ITS 1490 Community Garden Q1",
+			concept: "What Knowledge Do Students Need to Understand This Concept?",
+			prompt: '<p>Which model of the garden represents four rectangular sections for planting vegetables according to the class plan?</p><p style="">&#xA0;</p><p style="">Each square on the model represents 1 square foot. </p>',
+			answers: [
+				{
+					name: "Option A",
+					value: '<p style=""><img id="item_1598_graphics1" src="/ari/images/item_1598_v7_graphics1_png256.png" width="439" height="328" style="vertical-align:baseline;" /></p>',
+					order: 1
+				},
+				{
+					name: "Option B",
+					value: '<p style=""><img id="item_1598_graphics2" src="/ari/images/item_1598_v7_graphics2_png256.png" width="439" height="328" style="vertical-align:baseline;" /></p>',
+					order: 2
+				},
+				{
+					name: "Option C",
+					value: '<p style=""><img id="item_1598_graphics3" src="/ari/images/item_1598_v7_graphics3_png256.png" width="439" height="332" style="vertical-align:baseline;" /></p>',
+					order: 3
+				},
+				{
+					name: "Option D",
+					value: '<p style=""><img id="item_1598_graphics4" src="/ari/images/item_1598_v7_graphics4_png256.png" width="439" height="332" style="vertical-align:baseline;" /></p>',
+					order: 4
+				},
+
+			]
+		},
+            {
+            js_files: "/ari/js/standard.js",
+            send_data: "/api/score",
+            identifier: 1448,
+            div: 'container',
+            item_type: "multiple_choice",
+            item_subject: "MATH",
+            item_version: 8,
+            ari_version: 1,
+            order: 2,
+            description: "Cloned from ITS 766",
+            concept: "What Knowledge Do Students Need to Understand This Concept?",
+            prompt: '<p style="">Coffee costs $2 <span id="item_1448_TAG_5" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="1"></span>per<span class="its-tag" data-tag-ref="item_1448_TAG_5" data-tag-boundary="end"></span> pound at a coffee shop. <span id="item_1448_TAG_6" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="2"></span>Which<span class="its-tag" data-tag-ref="item_1448_TAG_6" data-tag-boundary="end"></span> graph represents this <span id="item_1448_TAG_7" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="3"></span>situation<span class="its-tag" data-tag-ref="item_1448_TAG_7" data-tag-boundary="end"></span>?</p>',
+            answers: [
+                      {
+                      name: "Option A",
+                      value: '<p style=""><img id="item_1448_graphics1" src="/ari/images/item_1448_v10_graphics1_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 1
+                      },
+                      {
+                      name: "Option B",
+                      value: '<p style=""><img id="item_1448_graphics2" src="/ari/images/item_1448_v10_graphics2_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 2
+                      },
+                      {
+                      name: "Option C",
+                      value: '<p style=""><img id="item_1448_graphics3" src="/ari/images/item_1448_v10_graphics3_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 3
+                      },
+                      {
+                      name: "Option D",
+                      value: '<p style=""><img id="item_1448_graphics4" src="/ari/images/item_1448_v10_graphics4_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 4
+                      },
+                      
+                      ]
+            },
+{
+            js_files: "/ari/js/standard.js",
+            send_data: "/api/score",
+            identifier: 1805,
+            div: 'container',
+            item_type: "multi_select",
+            item_subject: "MATH",
+            item_version: 3,
+            ari_version: 1,
+            order: 3,
+            description: "6th Grade Practice Test Item #13",
+            concept: "What Knowledge Do Students Need to Understand This Concept?",
+            prompt: '<p style=""><span id="item_1805_TAG_6" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="1"></span>Select <span style="font-weight:bold; ">all</span><span class="its-tag" data-tag-ref="item_1805_TAG_6" data-tag-boundary="end"></span><span style="font-weight:bold; "> </span><span style="font-weight:normal; ">equations that have </span><span style="font-weight:normal; "><img id="item_1805_Object1" style="vertical-align:middle;" src="/ari/images/item_1805_v3_Object1_png16malpha.png" width="47" height="15" /></span><span style="font-weight:normal; "> as a solution.</span></p>',
+            answers: [
+                      {
+                      name: "Option A",
+                      value: '<p style=""><img id="item_1805_Object2" style="vertical-align:middle;" src="/ari/images/item_1805_v3_Object2_png16malpha.png" width="95" height="15" /></p>',
+                      order: 1
+                      },
+                      {
+                      name: "Option B",
+                      value: '<p style=""><img id="item_1805_Object3" style="vertical-align:middle;" src="/ari/images/item_1805_v3_Object3_png16malpha.png" width="77" height="15" /></p>',
+                      order: 2
+                      },
+                      {
+                      name: "Option C",
+                      value: '<p style=""><img id="item_1805_Object4" style="vertical-align:middle;" src="/ari/images/item_1805_v3_Object4_png16malpha.png" width="79" height="15" /></p>',
+                      order: 3
+                      },
+                      {
+                      name: "Option D",
+                      value: '<p style=""><img id="item_1805_Object5" style="vertical-align:middle;" src="/ari/images/item_1805_v3_Object5_png16malpha.png" width="93" height="15" /></p>',
+                      order: 4
+                      },
+                      
+                      ]
+            },
+{
+            js_files: "/ari/js/standard.js",
+            send_data: "/api/score",
+            identifier: 206,
+            div: 'container',
+            item_type: "equation",
+            item_subject: "MATH",
+            item_version: 29,
+            ari_version: 1,
+            order: 4,
+            description: "MAT.04.TE.1.00NBT.E.xxx - SB OP",
+            concept: "None",
+            prompt: '<p style=""><span id="item_206_TAG_18" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="1"></span>Use<span class="its-tag" data-tag-ref="item_206_TAG_18" data-tag-boundary="end"></span> the <span style="font-weight:bold; ">Zoo Ticket </span><span style="font-weight:bold; ">Prices</span> table <span id="item_206_TAG_10_BEGIN">and</span> <span style="font-weight:bold; ">Anna’s </span><span id="item_206_TAG_11_BEGIN"><span style="font-weight:bold; ">Family</span></span> list to answer the question. </p><p style="">&#xA0;</p><p style=""><span id="item_206_TAG_20" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="3"></span>What<span class="its-tag" data-tag-ref="item_206_TAG_20" data-tag-boundary="end"></span> is the <span id="item_206_TAG_21" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="4"></span>total<span class="its-tag" data-tag-ref="item_206_TAG_21" data-tag-boundary="end"></span> cost, in dollars, of zoo tickets for Anna’s <span id="item_206_TAG_7_BEGIN">family?</span></p>',
+            answers: []
+            }              
+            
+            
+         
+            
+            ]
+}

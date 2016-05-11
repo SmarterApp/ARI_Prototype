@@ -1,0 +1,158 @@
+<script src="/static/ari3/js/raphael.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/ari3/js/g.raphael-min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/ari3/js/g.line.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/ari3/js/g.dot-min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/ari3/js/connection.js" type="text/javascript" charset="utf-8"></script>
+
+
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+<link rel="import" href="/static/ari3/we/type-gi.html">
+<link rel="import" href="/static/ari3/we/type-eq.html">
+<link rel="import" href="/static/ari3/we/type-nl.html">
+<link rel="import" href="/static/ari3/we/type-ebsr.html">
+<link rel="import" href="/static/ari3/we/type-htq.html">
+<link rel="import" href="/static/ari3/we/item-body.html">
+<link rel="import" href="/static/ari3/we/prompt-body.html">
+<link rel="import" href="/static/ari3/we/simple-choice.html">
+
+
+
+<dom-module id="item-element-3738">
+
+	<link rel="import" type="css" href="style.css">
+
+	<template>
+
+		<div id="itemSectionLeft"></div>
+		<div id="itemSectionRight">
+			<template id="t" is="dom-repeat" items="{{items_json}}" as="item">
+				<div class="itemSectionRightNumber">{{item.order}}</div>
+				<template is="dom-if" if="{{testType(item, 'gi')}}">
+					<div class="itemSectionRightItem"><type-gi data="{{item}}"></type-gi></div>
+				</template>
+				<template is="dom-if" if="{{testType(item, 'eq')}}">
+					<div class="itemSectionRightItem"><type-eq data="{{item}}"></type-eq></div>
+				</template>
+				<template is="dom-if" if="{{testType(item, 'nl')}}">
+					<div class="itemSectionRightItem"><type-nl data="{{item}}"></type-nl></div>
+				</template>
+				<template is="dom-if" if="{{testType(item, 'ebsr')}}">
+					<div class="itemSectionRightItem"><type-ebsr data="{{item}}"></type-ebsr></div>
+				</template>
+				<template is="dom-if" if="{{testType(item, 'htq')}}">
+					<div class="itemSectionRightItem"><type-htq data="{{item}}"></type-htq></div>
+				</template>
+			</template>
+		</div>
+
+
+	</template>
+
+	<script>
+		Polymer({
+			is: 'item-element-3738',
+			properties: {
+				items_json: Object
+			},
+			created: function() {
+				this.fire('ariItemStatus', {data: {'status':'loading'}});
+			},
+			ready: function() {
+
+				this.question = "";
+				this.passage = "";
+				this.response = "";
+				this.items_json = [];
+
+
+				var me = this;
+
+				$.getJSON(this.resolveUrl('item.json'),function(data){
+					me.processPassageJSON(data);
+				});
+
+			},
+			attached: function() {
+			},
+			testType: function(item, current_type) {
+				var item_type = item.json.itemrelease.item.format.toLowerCase();
+				if (item_type == current_type) {
+					return true;
+				} else {
+					return false;
+				}
+			},
+			divName: function(order) {
+				return 'item_'+order;
+			},
+			processPassageJSON: function(data) {
+				console.log(data);
+				this.passage = data.itemrelease.passage;
+				console.log(data.itemrelease.passage);
+				// get question
+				this.question = this.passage.content.stem;
+
+				// get other items
+				this.items = this.passage.items;
+
+
+				var me = this;
+
+				// hack ... fix later
+				$.ajaxSetup({
+					async: false
+				});
+
+				// grab items JSON
+				$.each(this.passage.items, function(key, value) {
+
+					var url = value.json;
+					var order = value.order;
+
+					$.getJSON(me.resolveUrl(url),function(data){
+						me.processItemsJSON(data, order);
+					});
+
+				});
+
+
+				this.displayDesc();
+				//this.displayItems();
+				console.log(this.items_json);
+				this.fire('ariItemStatus', {data: {'status':'ready'}});
+
+			},
+			processItemsJSON: function(json, order) {
+
+				this.push('items_json', {
+					'order': order,
+					'json': json,
+				});
+
+			},
+			displayDesc: function() {
+				this.$.itemSectionLeft.innerHTML = this.question;
+			},
+			displayItems: function(data) {
+				var order = data.order;
+				if (data.json.itemrelease.item.format == "gi") {
+					this.$.item_1.innerHTML =  '<type-gi class="" data="{{test:1}"></type-gi>';
+				}
+			},
+
+			itemSelected: function(event, detail, sender){
+				this.itemDone();
+			},
+			itemDone: function() {
+				this.fire('ariItemStatus', {data: {'status':'done'}});
+				this.remove();
+			},
+		});
+	</script>
+
+</dom-module>
+
+
+
+
+

@@ -1,0 +1,158 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="controller-main">
+
+	<link rel="import" type="css" href="controller-main.css">
+
+	<template>
+		<div class="controllerMain">
+			<div class="controllerRow">
+				<div class="controllerItem">Questions:</div> <div class="controllerItem">{{current_question}}</div> of <div class="controllerItem">{{number_questions}}</div>
+				<div class="controllerItem controllerSpace">{{test_name}}</div>
+				<div class="controllerItem controllerSpace">Mode: developer</div>
+
+				<div class="controllerSpace btn-group" data-toggle="buttons">
+					<label class="btn btn-primary active">
+						<input type="radio" name="options" id="option2" autocomplete="off" checked>View
+					</label>
+					<label class="btn btn-primary disabled">
+						<input type="radio" name="options" id="option1" autocomplete="off">Gather
+					</label>
+					<label class="btn btn-primary disabled">
+						<input type="radio" name="options" id="option3" autocomplete="off">Evaluate
+					</label>
+				</div>
+
+				<div class="controllerItem controllerSpace">
+					<button id="backButton" class="btn btn-default" on-click="previousQuestion"><span class="glyphicon glyphicon-chevron-left" ></span>Back</button>
+					<button id="backButton" class="btn btn-default disabled">Stop</button>
+					<button id="nextButton" class="btn btn-default" on-click="loadItem">Next<span class="glyphicon glyphicon-chevron-right" ></span></button>
+				</div>
+
+				<div class="controllerItem controllerSpace">
+					<button id="backButton" class="btn btn-default disabled">Save</button>
+				</div>
+
+			</div>
+			
+		</div>
+		<div id="itemSection"></div>
+	</template>
+
+	<script>
+		Polymer({
+			is: 'controller-main',
+			verison: '.1a',
+			debug: true,
+			interaction_mode: 'EVALUATE',
+			assessment_module: null,
+			item: null,
+			properties: {
+        		back_disabled: String
+      		},
+			ready: function() {
+				this.logThis('ready: ARI ready');
+				this.logThis('ready: Register events.');
+				this.registerEvents();
+				this.logThis('ready: Even registration done.');
+				this.logThis('ready: Retreieving Assessment module');
+				this.loadAssessment();
+				this.logThis('ready: Assessment module loaded.');	
+			},
+			registerEvents: function() {
+				this.addEventListener('ariItemStatus', this.itemStatus);
+			},
+			itemStatus: function(data) {
+				var event_status = data.detail.data.status;
+				this.logThis('itemStatus: item status update:');
+				this.logThis(event_status);
+				if (event_status == 'done') {
+                    this.loadItem();
+                }
+
+			},
+			setDebug: function(mode) {
+				this.debug = mode;
+			},
+			logThis: function(message) {
+				this.debug && console.log(message);
+			},
+			loadAssessment: function() {
+				$.ajax({
+                	context: this,
+                	type: "GET",
+                	url: "/api/ari/getAssessment",
+                	dataType: 'json',
+					success: function (data) {
+						this.logThis('loadAssessment: Successfully retireved assessment module:');
+						this.logThis(data);
+						this.processAssessmentModule(data);
+               		},
+          			error: function (e) {
+						this.logThis('loadAssessment: Error:');
+						this.logThis(e);
+                	}
+                	            	
+				});
+			},
+			processAssessmentModule: function(data) {
+				this.logThis('processAssessmentModule: Processing assessment module.');
+				this.assessment_module = data;
+				this.logThis('processAssessmentModule: Retreieving Item.');
+				this.loadItem();
+			},
+			getItemURL: function() {
+				return this.assessment_module.items_URL;
+			},
+			loadItem: function() {
+				this.logThis('loadItem: loading next question.');
+				var item_url = this.getItemURL();
+				$.ajax({
+						context: this,
+						type: "GET",
+						url: item_url,
+						dataType: 'json',
+						success: function (data) {
+							this.logThis('loadItem: Successfully retireved item:');
+							$("#itemSection").empty();
+							this.logThis(data);
+							this.processItem(data);
+						},
+						error: function (e) {
+							this.logThis('loadItem: Error:');
+							this.logThis(e);
+						}
+				});
+			},
+			processItem: function(data) {
+				this.logThis('processItem: Processing item.');
+				this.item = data;
+				var item_id = this.getItemID();
+				var ari_url = this.getARIURL();
+
+				var link = document.createElement('link');
+                link.setAttribute('rel', 'import');
+                link.setAttribute('href', ari_url);
+                document.body.appendChild(link);
+
+                $("#itemSection").append('<item-element-'+item_id+'></item-element-'+item_id+'>');
+
+			},
+			getItemID: function() {
+				this.logThis('getItemID: Getting item ID:');
+				var item_id = this.item.itemrelease.id;
+				this.logThis('getItemID: ' + item_id);
+				return item_id;
+			},
+			getARIURL: function() {
+				this.logThis('getARIURL: Getting item URL:');
+				var item_url = this.item.itemrelease.ari_url;
+				this.logThis('getARIURL: ' + item_url);
+				return item_url;
+			}
+		});
+	</script>
+
+</dom-module>
+
+

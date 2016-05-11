@@ -1,0 +1,189 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "ari_url": "/static/ari3/items/q6/index.html",
+    "id": "3738",
+    "passage": {
+      "version": "6",
+      "bankkey": "187",
+	  "items": [
+		 	{"order": 1, "json": "2576.json"}
+	  ],
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3738"
+          },
+          {
+            "attid": "stm_pass_subject",
+            "name": "Stim: Subject",
+            "val": "ELA"
+          },
+          {
+            "attid": "stm_pass_desc",
+            "name": "Stim: Description",
+            "val": "SBAC_G11_C1_LI_C_Sustainable Fashion"
+          }
+        ]
+      },
+      "content": {
+        "language": "ENU",
+        "version": "2.0",
+        "approvedVersion": "6",
+        "title": "&#xA0;",
+        "author": "&#xA0;",
+        "stem": "<p style=\"\">Read the text. Then answer the questions.</p><p style=\"\"><br /><span style=\"font-weight:bold; \">Sustainable </span><span id=\"passage_3738_TAG_2_BEGIN\"><span style=\"font-weight:bold; \">Fashion</span></span><br />by Tyson <span id=\"passage_3738_TAG_1_BEGIN\">Butcher</span><br /><br />“Sustainability” is a popular buzzword these days, but what exactly does it mean? According to the Environmental Protection Agency (EPA), sustainability “creates and maintains the conditions under which humans and nature can exist in productive harmony . . . [and] that permit fulfilling the social, economic and other requirements of present and future generations.” As the idea of living a sustainable lifestyle has become more widespread in recent years, consumers have begun to demand that the products they buy are produced in sustainable ways. It’s a trend that has made a new type of clothing, dubbed “eco-fashion,” very fashionable indeed.<br /><br />Why has clothing become such a concern for those who want to live more sustainably? Consider that Americans threw away an estimated 13.1 million pounds of clothing and textiles in 2010, or 5.3% of all solid wastes that made it into <span id=\"passage_3738_TAG_9_BEGIN\">U.S.</span> landfills that year (according to the EPA). As large as those numbers are, they do not even include shoes or other wearable accessories that were thrown out. While 15% of this clothing was recovered for reuse and recycling, that still leaves a lot of old clothes and shoes in the nation’s landfills.<br /><br />But the environmental impact of clothing involves more than just where our used clothes end up. To calculate the true impact of, say, a cotton T-shirt, we must go back to the beginning: to the farm where the cotton was grown. Cotton is a very water-intensive crop that is typically grown with heavy application of insecticides; in fact, cotton accounts for more insecticide use than any other single crop in the world. Cotton that is grown in the <span id=\"passage_3738_TAG_8_BEGIN\">U.S.</span> is often shipped off to other countries, such as China and Honduras, where it is processed with chemicals and dyes before being made into our T-shirt. The completed shirt is then shipped back to America, where it is sold. While all that shipping back and forth uses up a lot of energy, shipping actually accounts for less than half of the energy that will eventually be used on that T-shirt over its lifetime. According to the Audubon Society, about 60% of the energy cost of a T-shirt comes from washing and drying it<span id=\"passage_3738_TAG_3_BEGIN\">—</span>and washing adds a water cost as well.<br /><br />Given this environmental impact, it’s easy to see why many consumers are bypassing cotton T-shirts for clothing that is produced in more sustainable ways. And where consumer dollars have gone, clothing makers have followed. Many companies have started using organic cotton that is grown without pesticides or chemicals. Others use natural fibers that require less water than cotton, such as bamboo or hemp. A wide array of natural fibers<span id=\"passage_3738_TAG_4_BEGIN\">—</span>some old, some new<span id=\"passage_3738_TAG_5_BEGIN\">—</span>have become increasingly popular with consumers and manufacturers, including wool, silk, jute, corn, flax, and soy.<br /><br />While some eco-conscious consumers avoid synthetic, petroleum-based fabrics, such as polyester and nylon, even these fabrics can be produced in more sustainable ways by using recycled materials. One clothing company recycles plastic soda bottles and makes them into winter parkas. Other companies recycle old clothes and then remanufacture the synthetic material into new clothes.<br /><br />Sustainability, however, does not just mean being good to the environment; it also means being fair to fellow human beings. Clothing is often made in ways that are hazardous to workers who are underpaid and mistreated. One of the goals of the eco-fashion movement is to make sure that the farmers who grow the raw materials and the workers who manufacture the clothing are able to work in safe and fair workplaces.<br /> <br />Eco-fashion’s rise in popularity has even caught the attention of some top fashion designers who are beginning to add organic silks and recycled-plastic fabrics in their clothing. Overall, however, the fashion industry has been slow to pick up on this trend. While the big design houses have hesitated, many smaller clothing makers have moved quickly to fill the demand, producing clothes in a sustainable way and marketing their eco-friendliness to consumers. If successful, these smaller brands are sure to get the attention of larger brands and others looking to profit from the movement.<br /><br />Given this rush to capitalize on eco-fashion’s newfound popularity, consumers who seek true sustainability in the products they buy would do well to remember the old Latin phrase caveat emptor: let the buyer beware. Shoppers everywhere are now bombarded with advertising and packaging that touts the “organic,” “fair trade,” or “green” qualities of a product. While some of these terms are defined by regulations (for example, organic crops are certified by the <span id=\"passage_3738_TAG_7_BEGIN\">U.S.</span> Food and Drug Administration), others are open to interpretation: what really makes a product “green”? Consumers who wish to purchase truly sustainable products should examine the labels closely<span id=\"passage_3738_TAG_6_BEGIN\">—</span>and perhaps even do some research on the manufacturers—to make sure the products are actually as eco-friendly as they say they are.<br /><br />Fashion is an industry that is built on constant change, and designers and manufacturers are always seeking out the next big thing. However, there is every reason to believe that sustainable clothing is something more than just a temporary fashion trend. With human populations rising, along with the demand for limited resources, the current popularity of sustainable clothing is likely to become an enduring, long-term shift in the way clothes are made and sold.</p>",
+        "attachmentlist": {
+          "attachment": [
+            {
+              "id": "braillefile1",
+              "type": "BRF",
+              "subtype": "contracted",
+              "file": "passage_3738_enu_contracted.brf"
+            },
+            {
+              "id": "braillefile2",
+              "type": "BRF",
+              "subtype": "uncontracted",
+              "file": "passage_3738_enu_uncontracted.brf"
+            }
+          ]
+        },
+        "apipAccessibility": {
+          "accessibilityInfo": {
+            "accessElement": [
+              {
+                "identifier": "ae1",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_2_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "Fashion.",
+                    "textToSpeechPronunciationAlternate": "Fashion"
+                  },
+                  "brailleText": { "brailleTextString": "Fashion" }
+                }
+              },
+              {
+                "identifier": "ae2",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "Butcher.",
+                    "textToSpeechPronunciationAlternate": "Butcher"
+                  },
+                  "brailleText": { "brailleTextString": "Butcher" }
+                }
+              },
+              {
+                "identifier": "ae3",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_9_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "U S",
+                    "textToSpeechPronunciationAlternate": "U.S."
+                  },
+                  "brailleText": { "brailleTextString": "U.S." }
+                }
+              },
+              {
+                "identifier": "ae4",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_8_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "U S",
+                    "textToSpeechPronunciationAlternate": "U.S."
+                  },
+                  "brailleText": { "brailleTextString": "U.S." }
+                }
+              },
+              {
+                "identifier": "ae5",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_3_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": ",",
+                    "textToSpeechPronunciationAlternate": "—"
+                  },
+                  "brailleText": { "brailleTextString": "—" }
+                }
+              },
+              {
+                "identifier": "ae6",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_4_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": ",",
+                    "textToSpeechPronunciationAlternate": "—"
+                  },
+                  "brailleText": { "brailleTextString": "—" }
+                }
+              },
+              {
+                "identifier": "ae7",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_5_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": ",",
+                    "textToSpeechPronunciationAlternate": "—"
+                  },
+                  "brailleText": { "brailleTextString": "—" }
+                }
+              },
+              {
+                "identifier": "ae8",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_7_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "U S",
+                    "textToSpeechPronunciationAlternate": "U.S."
+                  },
+                  "brailleText": { "brailleTextString": "U.S." }
+                }
+              },
+              {
+                "identifier": "ae9",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "passage_3738_TAG_6_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": ",",
+                    "textToSpeechPronunciationAlternate": "—"
+                  },
+                  "brailleText": { "brailleTextString": "—" }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

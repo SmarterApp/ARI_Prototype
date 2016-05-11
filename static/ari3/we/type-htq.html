@@ -1,0 +1,62 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<link rel="import" href="/static/ari3/we/item-body.html">
+
+<dom-module id="type-htq">
+
+	<link rel="import" type="css" href="type-ebsr.css">
+
+	<template>
+
+		<div id="itemQuestion"></div>
+
+
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'type-htq',
+			properties: {
+          		data: Object,
+        	},
+			ready: function() {
+				this.question = null;
+				this.choices = [];
+
+			},
+			attached: function() {
+				console.log (this.data.json.itemrelease.item.content.stem);
+				this.$.itemQuestion.innerHTML = this.data.json.itemrelease.item.content.stem;
+				this.setupMouseEvents();
+			},
+			setupMouseEvents: function() {
+				var me = this;
+				$('[id$="BEGIN"]').css('cursor', 'pointer');
+
+				$('[id$="BEGIN"]').mouseover(function() {
+					if ($(this).css('background-color') != "rgb(125, 255, 115)") {
+						$(this).css('background-color', '#defcdb');
+					}
+				});
+				$('[id$="BEGIN"]').mouseout(function() {
+					if ($(this).css('background-color') != "rgb(125, 255, 115)") {
+						$(this).css('background-color', 'white');
+					}
+				});
+
+				$('[id$="BEGIN"]').mousedown(function() {
+					$('[id$="BEGIN"]').css('background-color', 'white');
+					$(this).css('background-color', '#7dff73');
+				});
+
+			}
+			
+		});
+
+	</script>
+
+</dom-module>
+
+
+

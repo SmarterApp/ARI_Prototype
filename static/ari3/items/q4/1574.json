@@ -1,0 +1,465 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "nl",
+      "id": "1574",
+      "version": "12",
+      "bankkey": "187",
+      "associatedpassage": "3694",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1574"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA08_PT_HTBEAT_Q5"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::Perf::SP13 (6); PracTest::MG8::Perf::SP13::BRAILLE (6); PracTest::MG8::Perf::SP13::ENU::Refresh (6); PracTest::MG8::Perf::SP13::BRL::Refresh (6); PracTest::MG8::Perf::SP13::ESN::Refresh (6);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "NL"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "NL",
+            "desc": "NL [3]"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "PlainText"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "2 pts.",
+            "desc": "2 Points"
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1078",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1638",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1574_v12.nlx" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "12",
+          "stem": "<p style=\"\">The <span id=\"item_1574_TAG_20\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>body weight<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_20\" data-tag-boundary=\"end\"></span> and <span id=\"item_1574_TAG_21\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"12\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_21\" data-tag-boundary=\"end\"></span> of a <span id=\"item_1574_TAG_22\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>guinea pig<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_22\" data-tag-boundary=\"end\"></span> and rabbit are given in the table below.</p><p style=\"\">&#xA0;</p><div align=\"left\"><table class=\"newtable\" id=\"item_1574_Table1\" style=\"width:34.2582em; border-spacing:0;\" cellpadding=\"0\" cellspacing=\"0\"><colgroup style=\"width:4.6086em; \" /><colgroup style=\"width:12.6084em; \" /><colgroup style=\"width:17.0418em; \" /><tbody><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \"><span id=\"item_1574_TAG_1_BEGIN\">Animal</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \"><span id=\"item_1574_TAG_2_BEGIN\">Average</span> Body Weight <span id=\"item_1574_TAG_3_BEGIN\">(in kg)</span></p></td><td style=\"padding:0.2292em;  border:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \"><span id=\"item_1574_TAG_4_BEGIN\"><span id=\"item_1574_TAG_4\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>Average<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_4\" data-tag-boundary=\"end\"></span></span> <span id=\"item_1574_TAG_30\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>Pulse Rate<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_30\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_5_BEGIN\">(in</span> <span id=\"item_1574_TAG_31\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>beats<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_31\" data-tag-boundary=\"end\"></span> per minute)</p></td></tr><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_32\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>Guinea Pig<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_32\" data-tag-boundary=\"end\"></span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_7_BEGIN\">1</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_8_BEGIN\">250</span></p></td></tr><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_9_BEGIN\">Rabbit</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_10_BEGIN\">2.5</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_11_BEGIN\">265</span></p></td></tr></tbody></table></div><p style=\"\">&#xA0;</p><p style=\"\">If the study <span id=\"item_1574_TAG_23\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"7\"></span>had included<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_23\" data-tag-boundary=\"end\"></span> these data, <span id=\"item_1574_TAG_24\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"8\"></span>would this change<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_24\" data-tag-boundary=\"end\"></span> the model <span id=\"item_1574_TAG_25\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"9\"></span>relating<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_25\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_26\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"10\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_26\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_27\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>body weight<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_27\" data-tag-boundary=\"end\"></span> and <span id=\"item_1574_TAG_28\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"10\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_28\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_29\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"12\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_29\" data-tag-boundary=\"end\"></span>? How do you know?</p><p style=\"\">&#xA0;</p>",
+          "rubriclist": {
+            "rubric": [
+              {
+                "scorepoint": "2",
+                "name": "Rubric 2",
+                "val": "<p style=\"\">Students can use their original equation model to show the difference between actual pulse rate and the predicted pulse rate and conclude that the current model will need to be changed.</p><p style=\"\">&#xA0;</p><p style=\"\">Students can use the scatter plot and graph of the equation to conclude that that the new data points will shift the slope and the y- intercept in the model.</p><p style=\"\">&#xA0;</p><p style=\"\">Students can also argue that the true relationship may not be linear, given the two new data points, and the unreasonableness of the predicted pulse rate of the animal that weighs 6000 kg in item 4.</p><p style=\"\">&#xA0;</p>"
+              },
+              {
+                "scorepoint": "1",
+                "name": "Rubric 1",
+                "val": "<p style=\"\">Award 1 point if student concludes that the model will need to be changed, but does not explain his conclusion.</p>"
+              },
+              {
+                "scorepoint": "0",
+                "name": "Rubric 0",
+                "val": "<p style=\"\">The response does not meet the criteria required to earn one point. The response indicates inadequate or no understanding of the task and/or the idea or concept needed to answer the item. It may only repeat information given in the test item. The response may provide an incorrect solution/response and the provided supportive information may be irrelevant to the item, or possibly, no other information is shown. The student may have written on a different topic or written, “I don't know.”</p>"
+              }
+            ],
+            "samplelist": [
+              {
+                "maxval": "2",
+                "minval": "2",
+                "sample": {
+                  "purpose": "OtherExemplar",
+                  "scorepoint": "2",
+                  "name": "2-Point Other Official Sample Answers",
+                  "samplecontent": "<p style=\"\">Yes. The model will need to be changed, because the new data points do not follow the trend suggested by the equation in Item 2. </p>"
+                }
+              },
+              {
+                "maxval": "1",
+                "minval": "1",
+                "sample": {
+                  "purpose": "Exemplar",
+                  "scorepoint": "1",
+                  "name": "1-Point Official Sample Answer",
+                  "samplecontent": "<p style=\"\">The model will need to change.</p>"
+                }
+              },
+              {
+                "maxval": "0",
+                "minval": "0",
+                "sample": {
+                  "purpose": "Exemplar",
+                  "scorepoint": "0",
+                  "name": "0-Point Official Sample Answer",
+                  "samplecontent": "<p style=\"\">NA</p>"
+                }
+              }
+            ]
+          },
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "item_1574_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "item_1574_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae4",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_1_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The table has 3 columns and 2 rows. From left to right the column headings reed, Animal",
+                      "textToSpeechPronunciationAlternate": "Animal"
+                    },
+                    "brailleText": { "brailleTextString": "Animal" }
+                  }
+                },
+                {
+                  "identifier": "ae5",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "; Average",
+                      "textToSpeechPronunciationAlternate": "Average"
+                    },
+                    "brailleText": { "brailleTextString": "Average" }
+                  }
+                },
+                {
+                  "identifier": "ae6",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_3_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", in kilograms",
+                      "textToSpeechPronunciationAlternate": "(in kg)"
+                    },
+                    "brailleText": { "brailleTextString": "(in kg)" }
+                  }
+                },
+                {
+                  "identifier": "ae7",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_4_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "; Average",
+                      "textToSpeechPronunciationAlternate": "Average"
+                    },
+                    "brailleText": { "brailleTextString": "Average" }
+                  }
+                },
+                {
+                  "identifier": "ae9",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_5_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", in",
+                      "textToSpeechPronunciationAlternate": "(in"
+                    },
+                    "brailleText": { "brailleTextString": "(in" }
+                  }
+                },
+                {
+                  "identifier": "ae12",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_7_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 1",
+                      "textToSpeechPronunciationAlternate": "1"
+                    },
+                    "brailleText": { "brailleTextString": "1" }
+                  }
+                },
+                {
+                  "identifier": "ae13",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_8_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 250",
+                      "textToSpeechPronunciationAlternate": "250"
+                    },
+                    "brailleText": { "brailleTextString": "250" }
+                  }
+                },
+                {
+                  "identifier": "ae14",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_9_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ". The second row reeds, Rabbit",
+                      "textToSpeechPronunciationAlternate": "Rabbit"
+                    },
+                    "brailleText": { "brailleTextString": "Rabbit" }
+                  }
+                },
+                {
+                  "identifier": "ae15",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_10_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 2 point 5",
+                      "textToSpeechPronunciationAlternate": "2.5"
+                    },
+                    "brailleText": { "brailleTextString": "2.5" }
+                  }
+                },
+                {
+                  "identifier": "ae16",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_11_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 265.",
+                      "textToSpeechPronunciationAlternate": "265"
+                    },
+                    "brailleText": { "brailleTextString": "265" }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "12",
+          "stem": "<p style=\"\">El peso corporal y el pulso cardiaco de un conejillo de indias y de un conejo se muestran en la siguiente tabla.</p><p style=\"\">&#xA0;</p><div align=\"left\"><table class=\"newtable\" id=\"item_1574_Table2\" style=\"width:34.2582em; border-spacing:0;\" cellpadding=\"0\" cellspacing=\"0\"><colgroup style=\"width:4.6086em; \" /><colgroup style=\"width:12.6084em; \" /><colgroup style=\"width:17.0418em; \" /><tbody><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \">Animal</p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \">Peso corporal promedio</p><p style=\"text-align:center; font-weight:bold; \">(en kg)</p></td><td style=\"padding:0.2292em;  border:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \">Pulso cardiaco promedio</p><p style=\"text-align:center; font-weight:bold; \">(en latidos por minuto)</p></td></tr><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \">Conejillo de indias</p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \">1</p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \">250</p></td></tr><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \">Conejo</p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \">2.5</p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \">265</p></td></tr></tbody></table></div><p style=\"\">&#xA0;</p><p style=\"\">Si el estudio hubiera incluido estos datos, ¿cambiaría el modelo que relaciona el peso corporal promedio con el pulso cardiaco promedio? ¿Cómo lo sabes?</p><p style=\"\">&#xA0;</p><p class=\"languagedivider\">&#xA0;</p><p style=\"\">The <span id=\"item_1574_TAG_20\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>body weight<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_20\" data-tag-boundary=\"end\"></span> and <span id=\"item_1574_TAG_21\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"12\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_21\" data-tag-boundary=\"end\"></span> of a <span id=\"item_1574_TAG_22\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>guinea pig<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_22\" data-tag-boundary=\"end\"></span> and rabbit are given in the table below.</p><p style=\"\">&#xA0;</p><div align=\"left\"><table class=\"newtable\" id=\"item_1574_Table1\" style=\"width:34.2582em; border-spacing:0;\" cellpadding=\"0\" cellspacing=\"0\"><colgroup style=\"width:4.6086em; \" /><colgroup style=\"width:12.6084em; \" /><colgroup style=\"width:17.0418em; \" /><tbody><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \"><span id=\"item_1574_TAG_1_BEGIN\">Animal</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \"><span id=\"item_1574_TAG_2_BEGIN\">Average</span> Body Weight <span id=\"item_1574_TAG_3_BEGIN\">(in kg)</span></p></td><td style=\"padding:0.2292em;  border:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; font-weight:bold; \"><span id=\"item_1574_TAG_4_BEGIN\"><span id=\"item_1574_TAG_4\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>Average<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_4\" data-tag-boundary=\"end\"></span></span> <span id=\"item_1574_TAG_30\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>Pulse Rate<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_30\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_5_BEGIN\">(in</span> <span id=\"item_1574_TAG_31\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>beats<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_31\" data-tag-boundary=\"end\"></span> per minute)</p></td></tr><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_32\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>Guinea Pig<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_32\" data-tag-boundary=\"end\"></span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_7_BEGIN\">1</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_8_BEGIN\">250</span></p></td></tr><tr><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_9_BEGIN\">Rabbit</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_10_BEGIN\">2.5</span></p></td><td style=\"padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; \"><p style=\"text-align:center; \"><span id=\"item_1574_TAG_11_BEGIN\">265</span></p></td></tr></tbody></table></div><p style=\"\">&#xA0;</p><p style=\"\">If the study <span id=\"item_1574_TAG_23\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"7\"></span>had included<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_23\" data-tag-boundary=\"end\"></span> these data, <span id=\"item_1574_TAG_24\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"8\"></span>would this change<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_24\" data-tag-boundary=\"end\"></span> the model <span id=\"item_1574_TAG_25\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"9\"></span>relating<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_25\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_26\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"10\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_26\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_27\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>body weight<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_27\" data-tag-boundary=\"end\"></span> and <span id=\"item_1574_TAG_28\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"10\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_28\" data-tag-boundary=\"end\"></span> <span id=\"item_1574_TAG_29\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"12\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1574_TAG_29\" data-tag-boundary=\"end\"></span>? How do you know?</p><p style=\"\">&#xA0;</p>",
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae4",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_1_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The table has 3 columns and 2 rows. From left to right the column headings reed, Animal",
+                      "textToSpeechPronunciationAlternate": "Animal"
+                    },
+                    "brailleText": { "brailleTextString": "Animal" }
+                  }
+                },
+                {
+                  "identifier": "ae5",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "; Average",
+                      "textToSpeechPronunciationAlternate": "Average"
+                    },
+                    "brailleText": { "brailleTextString": "Average" }
+                  }
+                },
+                {
+                  "identifier": "ae6",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_3_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", in kilograms",
+                      "textToSpeechPronunciationAlternate": "(in kg)"
+                    },
+                    "brailleText": { "brailleTextString": "(in kg)" }
+                  }
+                },
+                {
+                  "identifier": "ae7",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_4_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "; Average",
+                      "textToSpeechPronunciationAlternate": "Average"
+                    },
+                    "brailleText": { "brailleTextString": "Average" }
+                  }
+                },
+                {
+                  "identifier": "ae9",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_5_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", in",
+                      "textToSpeechPronunciationAlternate": "(in"
+                    },
+                    "brailleText": { "brailleTextString": "(in" }
+                  }
+                },
+                {
+                  "identifier": "ae12",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_7_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 1",
+                      "textToSpeechPronunciationAlternate": "1"
+                    },
+                    "brailleText": { "brailleTextString": "1" }
+                  }
+                },
+                {
+                  "identifier": "ae13",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_8_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 250",
+                      "textToSpeechPronunciationAlternate": "250"
+                    },
+                    "brailleText": { "brailleTextString": "250" }
+                  }
+                },
+                {
+                  "identifier": "ae14",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_9_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ". The second row reeds, Rabbit",
+                      "textToSpeechPronunciationAlternate": "Rabbit"
+                    },
+                    "brailleText": { "brailleTextString": "Rabbit" }
+                  }
+                },
+                {
+                  "identifier": "ae15",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_10_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 2 point 5",
+                      "textToSpeechPronunciationAlternate": "2.5"
+                    },
+                    "brailleText": { "brailleTextString": "2.5" }
+                  }
+                },
+                {
+                  "identifier": "ae16",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1574_TAG_11_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 265.",
+                      "textToSpeechPronunciationAlternate": "265"
+                    },
+                    "brailleText": { "brailleTextString": "265" }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

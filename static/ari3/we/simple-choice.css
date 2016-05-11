@@ -1,0 +1,14 @@
+.simpleChoiceSection {
+	display:block;
+}
+
+.simpleChoiceRadio {
+	display:inline-block;
+	vertical-align:top;
+}
+
+.simpleChoiceContent {
+	display: inline-block;
+	width:300px;
+	vertical-align:top;
+}

@@ -1,0 +1,414 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "ari_url": "/static/ari3/items/q4/index.html",
+    "id": "3694",
+    "passage": {
+      "version": "18",
+      "bankkey": "187",
+	  "items": [
+		 	{"order": 1, "json": "1505.json"},
+			{"order": 2, "json": "1506.json"},
+			{"order": 3, "json": "1507.json"},
+			{"order": 4, "json": "1518.json"},
+			{"order": 5, "json": "1519.json"},
+			{"order": 6, "json": "1574.json"}
+	  ],
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          },
+          {
+            "attid": "stm_pass_subject",
+            "name": "Stim: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "stm_pass_desc",
+            "name": "Stim: Description",
+            "val": "Heartbeats"
+          },
+          {
+            "attid": "stm_att_Spanish Option Stacking",
+            "name": "Stim: Spanish Option Stacking",
+            "val": "Spanish above English"
+          }
+        ]
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1652",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "18",
+          "title": "Heartbeats",
+          "author": "&#xA0;",
+          "stem": "<p style=\"\">In this <span id=\"passage_3694_TAG_39\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>task<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_39\" data-tag-boundary=\"end\"></span>, you will use data to create a <span id=\"passage_3694_TAG_49\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"10\"></span>model<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_49\" data-tag-boundary=\"end\"></span> that shows the <span id=\"passage_3694_TAG_40\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>relationship<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_40\" data-tag-boundary=\"end\"></span> between animal body weight and <span id=\"passage_3694_TAG_41\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_41\" data-tag-boundary=\"end\"></span> measures. Then you will examine <span id=\"passage_3694_TAG_42\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>additional<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_42\" data-tag-boundary=\"end\"></span> data to evaluate your <span id=\"passage_3694_TAG_2_BEGIN\">model.</span></p><p style=\"\"> </p><p style=\"\">A study <span id=\"passage_3694_TAG_43\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>states<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_43\" data-tag-boundary=\"end\"></span> that the <span id=\"passage_3694_TAG_44\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>relationship<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_44\" data-tag-boundary=\"end\"></span> <span id=\"passage_3694_TAG_45\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>between<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_45\" data-tag-boundary=\"end\"></span> an animal’s <span id=\"passage_3694_TAG_46\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_46\" data-tag-boundary=\"end\"></span> and body weight is approximately linear. The study data are <span id=\"passage_3694_TAG_1_BEGIN\"><span id=\"passage_3694_TAG_1\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"7\"></span>below.<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_1\" data-tag-boundary=\"end\"></span></span></p><p style=\"\"> </p><p style=\"\">Table 1. <span id=\"passage_3694_TAG_4_BEGIN\">Average</span> Body Weight and <span id=\"passage_3694_TAG_47\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"8\"></span>Average<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_47\" data-tag-boundary=\"end\"></span> <span id=\"passage_3694_TAG_48\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"9\"></span>Pulse Rate<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_48\" data-tag-boundary=\"end\"></span> of Seven <span id=\"passage_3694_TAG_3_BEGIN\">Animals</span></p><p style=\"\"> </p><div align=\"left\"><table class=\"newtable\" id=\"passage_3694_Table1\" style=\"width:30.8418em; border-spacing:0;\" cellpadding=\"0\" cellspacing=\"0\"><colgroup style=\"width:5.1000em; \" /><colgroup style=\"width:12.6624em; \" /><colgroup style=\"width:13.0794em; \" /><tbody><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-top:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \"><span id=\"passage_3694_TAG_5_BEGIN\">Animal</span></p></td><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-top:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Average Body Weight </p><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">(in kilograms)</p></td><td style=\"vertical-align:middle; padding:0.1164em;  border:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Average Pulse Rate (in beats per minute)</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_6_BEGIN\">Cat</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">3</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_7_BEGIN\">130</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_8_BEGIN\">Goat</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">28</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_18_BEGIN\">75</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_9_BEGIN\">Sheep</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">56</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_19_BEGIN\">75</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_10_BEGIN\">Pig</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_11_BEGIN\">192</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_20_BEGIN\">95</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_12_BEGIN\">Ox</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_13_BEGIN\">362</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_21_BEGIN\">48</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_14_BEGIN\">Cow</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_16_BEGIN\">465</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_22_BEGIN\">66</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_15_BEGIN\">Horse</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_17_BEGIN\">521</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_23_BEGIN\">34</span></p></td></tr></tbody></table></div><p style=\"\">&#xA0;</p><p style=\"\">&#xA0;</p>",
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "passage_3694_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "passage_3694_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae6",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "model. ,",
+                      "textToSpeechPronunciationAlternate": "model."
+                    },
+                    "brailleText": { "brailleTextString": "model." }
+                  }
+                },
+                {
+                  "identifier": "ae11",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_1_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "below. ,",
+                      "textToSpeechPronunciationAlternate": "below."
+                    },
+                    "brailleText": { "brailleTextString": "below." }
+                  }
+                },
+                {
+                  "identifier": "ae12",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_4_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "Average",
+                      "textToSpeechPronunciationAlternate": "Average"
+                    },
+                    "brailleText": { "brailleTextString": "Average" }
+                  }
+                },
+                {
+                  "identifier": "ae15",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_3_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "Animals:",
+                      "textToSpeechPronunciationAlternate": "Animals"
+                    },
+                    "brailleText": { "brailleTextString": "Animals" }
+                  }
+                },
+                {
+                  "identifier": "ae16",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_5_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The table has 7 rows and 3 columns. From left to right the column headings reed: Animal,",
+                      "textToSpeechPronunciationAlternate": "Animal"
+                    },
+                    "brailleText": { "brailleTextString": "Animal" }
+                  }
+                },
+                {
+                  "identifier": "ae17",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_6_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ". From left to right the first row reeds: Cat,",
+                      "textToSpeechPronunciationAlternate": "Cat"
+                    },
+                    "brailleText": { "brailleTextString": "Cat" }
+                  }
+                },
+                {
+                  "identifier": "ae18",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_7_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 1 hundred 30,",
+                      "textToSpeechPronunciationAlternate": "130"
+                    },
+                    "brailleText": { "brailleTextString": "130" }
+                  }
+                },
+                {
+                  "identifier": "ae19",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_8_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The second row reeds: Goat,",
+                      "textToSpeechPronunciationAlternate": "Goat"
+                    },
+                    "brailleText": { "brailleTextString": "Goat" }
+                  }
+                },
+                {
+                  "identifier": "ae20",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_18_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 75,",
+                      "textToSpeechPronunciationAlternate": "75"
+                    },
+                    "brailleText": { "brailleTextString": "75" }
+                  }
+                },
+                {
+                  "identifier": "ae21",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_9_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The third row reeds: Sheep,",
+                      "textToSpeechPronunciationAlternate": "Sheep"
+                    },
+                    "brailleText": { "brailleTextString": "Sheep" }
+                  }
+                },
+                {
+                  "identifier": "ae22",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_19_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": ", 75,",
+                      "textToSpeechPronunciationAlternate": "75"
+                    },
+                    "brailleText": { "brailleTextString": "75" }
+                  }
+                },
+                {
+                  "identifier": "ae23",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_10_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The fourth row reeds: Pig,",
+                      "textToSpeechPronunciationAlternate": "Pig"
+                    },
+                    "brailleText": { "brailleTextString": "Pig" }
+                  }
+                },
+                {
+                  "identifier": "ae24",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_11_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "1 hundred 92,",
+                      "textToSpeechPronunciationAlternate": "192"
+                    },
+                    "brailleText": { "brailleTextString": "192" }
+                  }
+                },
+                {
+                  "identifier": "ae25",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_20_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "95,",
+                      "textToSpeechPronunciationAlternate": "95"
+                    },
+                    "brailleText": { "brailleTextString": "95" }
+                  }
+                },
+                {
+                  "identifier": "ae26",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_12_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The fifth row reeds: Ox,",
+                      "textToSpeechPronunciationAlternate": "Ox"
+                    },
+                    "brailleText": { "brailleTextString": "Ox" }
+                  }
+                },
+                {
+                  "identifier": "ae27",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_13_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "3 hundred 62,",
+                      "textToSpeechPronunciationAlternate": "362"
+                    },
+                    "brailleText": { "brailleTextString": "362" }
+                  }
+                },
+                {
+                  "identifier": "ae28",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_21_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "48,",
+                      "textToSpeechPronunciationAlternate": "48"
+                    },
+                    "brailleText": { "brailleTextString": "48" }
+                  }
+                },
+                {
+                  "identifier": "ae29",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_14_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The sixth row reeds: Cow,",
+                      "textToSpeechPronunciationAlternate": "Cow"
+                    },
+                    "brailleText": { "brailleTextString": "Cow" }
+                  }
+                },
+                {
+                  "identifier": "ae30",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_16_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "4 hundred 65,",
+                      "textToSpeechPronunciationAlternate": "465"
+                    },
+                    "brailleText": { "brailleTextString": "465" }
+                  }
+                },
+                {
+                  "identifier": "ae31",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_22_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "66,",
+                      "textToSpeechPronunciationAlternate": "66"
+                    },
+                    "brailleText": { "brailleTextString": "66" }
+                  }
+                },
+                {
+                  "identifier": "ae32",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_15_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "The fourth row reeds: Horse,",
+                      "textToSpeechPronunciationAlternate": "Horse"
+                    },
+                    "brailleText": { "brailleTextString": "Horse" }
+                  }
+                },
+                {
+                  "identifier": "ae33",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_17_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "5 hundred 21,",
+                      "textToSpeechPronunciationAlternate": "521"
+                    },
+                    "brailleText": { "brailleTextString": "521" }
+                  }
+                },
+                {
+                  "identifier": "ae34",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "passage_3694_TAG_23_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "34.",
+                      "textToSpeechPronunciationAlternate": "34"
+                    },
+                    "brailleText": { "brailleTextString": "34" }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "18",
+          "title": "Latidos<p class=\"languagedivider\">&#xA0;</p>Heartbeats",
+          "author": "&#xA0;<p class=\"languagedivider\">&#xA0;</p>&#xA0;",
+          "stem": "<p style=\"\">En esta tarea, vas a usar información para crear un modelo que muestre la relación entre el peso corporal de un animal y su pulso cardiaco. Luego, vas a examinar información adicional para evaluar tu modelo.</p><p style=\"\">&#xA0;</p><p style=\"\">Un estudio afirma que la relación entre el pulso cardiaco de un animal y su peso corporal es aproximadamente lineal. A continuación se muestran los datos del estudio.</p><p style=\"\">&#xA0;</p><p style=\"\">Tabla 1. Peso corporal promedio y pulso cardiaco promedio de siete animales</p><p style=\"\">&#xA0;</p><div align=\"left\"><table class=\"newtable\" id=\"passage_3694_Table2\" style=\"width:30.8418em; border-spacing:0;\" cellpadding=\"0\" cellspacing=\"0\"><colgroup style=\"width:5.1000em; \" /><colgroup style=\"width:12.6624em; \" /><colgroup style=\"width:13.0794em; \" /><tbody><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-top:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Animal</p></td><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-top:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Peso corporal promedio</p><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">(en kilogramos)</p></td><td style=\"vertical-align:middle; padding:0.1164em;  border:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Pulso cardiaco promedio</p><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">(en latidos por minuto)</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Gato</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">3</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">130</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Cabra</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">28</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">75</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Oveja</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">56</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">75</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Cerdo</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">192</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">95</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Buey</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">362</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">48</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Vaca</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">465</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">66</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">Caballo</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">521</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">34</p></td></tr></tbody></table></div><p style=\"\">&#xA0;</p><p class=\"languagedivider\">&#xA0;</p><p style=\"\">In this <span id=\"passage_3694_TAG_39\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>task<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_39\" data-tag-boundary=\"end\"></span>, you will use data to create a <span id=\"passage_3694_TAG_49\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"10\"></span>model<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_49\" data-tag-boundary=\"end\"></span> that shows the <span id=\"passage_3694_TAG_40\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>relationship<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_40\" data-tag-boundary=\"end\"></span> between animal body weight and <span id=\"passage_3694_TAG_41\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_41\" data-tag-boundary=\"end\"></span> measures. Then you will examine <span id=\"passage_3694_TAG_42\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>additional<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_42\" data-tag-boundary=\"end\"></span> data to evaluate your <span id=\"passage_3694_TAG_2_BEGIN\">model.</span></p><p style=\"\"> </p><p style=\"\">A study <span id=\"passage_3694_TAG_43\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>states<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_43\" data-tag-boundary=\"end\"></span> that the <span id=\"passage_3694_TAG_44\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>relationship<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_44\" data-tag-boundary=\"end\"></span> <span id=\"passage_3694_TAG_45\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>between<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_45\" data-tag-boundary=\"end\"></span> an animal’s <span id=\"passage_3694_TAG_46\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_46\" data-tag-boundary=\"end\"></span> and body weight is approximately linear. The study data are <span id=\"passage_3694_TAG_1_BEGIN\"><span id=\"passage_3694_TAG_1\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"7\"></span>below.<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_1\" data-tag-boundary=\"end\"></span></span></p><p style=\"\"> </p><p style=\"\">Table 1. <span id=\"passage_3694_TAG_4_BEGIN\">Average</span> Body Weight and <span id=\"passage_3694_TAG_47\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"8\"></span>Average<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_47\" data-tag-boundary=\"end\"></span> <span id=\"passage_3694_TAG_48\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"9\"></span>Pulse Rate<span class=\"its-tag\" data-tag-ref=\"passage_3694_TAG_48\" data-tag-boundary=\"end\"></span> of Seven <span id=\"passage_3694_TAG_3_BEGIN\">Animals</span></p><p style=\"\"> </p><div align=\"left\"><table class=\"newtable\" id=\"passage_3694_Table1\" style=\"width:30.8418em; border-spacing:0;\" cellpadding=\"0\" cellspacing=\"0\"><colgroup style=\"width:5.1000em; \" /><colgroup style=\"width:12.6624em; \" /><colgroup style=\"width:13.0794em; \" /><tbody><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-top:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \"><span id=\"passage_3694_TAG_5_BEGIN\">Animal</span></p></td><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-top:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Average Body Weight </p><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">(in kilograms)</p></td><td style=\"vertical-align:middle; padding:0.1164em;  border:0.0834em solid #808080;\"><p style=\"text-align:center; font-weight:bold; font-family:Verdana; \">Average Pulse Rate (in beats per minute)</p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_6_BEGIN\">Cat</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">3</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_7_BEGIN\">130</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_8_BEGIN\">Goat</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">28</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_18_BEGIN\">75</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_9_BEGIN\">Sheep</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \">56</p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_19_BEGIN\">75</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_10_BEGIN\">Pig</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_11_BEGIN\">192</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_20_BEGIN\">95</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_12_BEGIN\">Ox</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_13_BEGIN\">362</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_21_BEGIN\">48</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_14_BEGIN\">Cow</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_16_BEGIN\">465</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_22_BEGIN\">66</span></p></td></tr><tr><td style=\"vertical-align:middle; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_15_BEGIN\">Horse</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_17_BEGIN\">521</span></p></td><td style=\"vertical-align:bottom; padding:0.1164em;  border-left:0.0834em solid #808080; border-right:0.0834em solid #808080; border-bottom:0.0834em solid #808080;\"><p style=\"text-align:center; font-family:Verdana; \"><span id=\"passage_3694_TAG_23_BEGIN\">34</span></p></td></tr></tbody></table></div><p style=\"\">&#xA0;</p><p style=\"\">&#xA0;</p>"
+        }
+      ]
+    }
+  }
+}

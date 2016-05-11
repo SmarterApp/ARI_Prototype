@@ -1,0 +1,11 @@
+ {
+ 	"name": "Smarter Grades 6-8",
+	"items_URL": "/api/ari/getItem",
+	"student_data": {
+		"student_id": 1,
+		"isaap": {
+			"colorContrast": true
+		}
+	},
+	"test_data" : { }
+ }

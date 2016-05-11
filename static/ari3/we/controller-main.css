@@ -1,0 +1,16 @@
+.controllerMain {
+	padding:20px;
+	border-bottom:1px solid grey;
+}
+
+.controllerItem {
+	display:inline-block;
+}
+
+.controllerSpace {
+	padding-left: 10px;
+}
+
+#itemSection {
+	height:100%;
+}

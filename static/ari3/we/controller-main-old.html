@@ -1,0 +1,149 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="controller-main">
+
+    <link rel="import" type="css" href="controller-main.css">
+
+    <template>
+        <div class="controllerMain">
+            <div class="controllerRow">
+                <div class="controllerItem">Questions:</div> <div class="controllerItem">{{current_question}}</div> of <div class="controllerItem">{{number_questions}}</div>
+                <div class="controllerItem controllerSpace">{{test_name}}</div>
+                <div class="controllerItem controllerSpace">Mode: developer</div>
+
+                <div class="controllerSpace btn-group" data-toggle="buttons">
+                    <label class="btn btn-primary active">
+                        <input type="radio" name="options" id="option2" autocomplete="off" checked>View
+                    </label>
+                    <label class="btn btn-primary disabled">
+                        <input type="radio" name="options" id="option1" autocomplete="off">Gather
+                    </label>
+                    <label class="btn btn-primary disabled">
+                        <input type="radio" name="options" id="option3" autocomplete="off">Evaluate
+                    </label>
+                </div>
+
+                <div class="controllerItem controllerSpace">
+                    <button id="backButton" class="btn btn-default" on-click="previousQuestion"><span class="glyphicon glyphicon-chevron-left" ></span>Back</button>
+                    <button id="backButton" class="btn btn-default disabled">Stop</button>
+                    <button id="nextButton" class="btn btn-default" on-click="nextQuestion">Next<span class="glyphicon glyphicon-chevron-right" ></span></button>
+                </div>
+
+                <div class="controllerItem controllerSpace">
+                    <button id="backButton" class="btn btn-default disabled">Save</button>
+                </div>
+
+            </div>
+            
+        </div>
+        <div id="itemSection"></div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'controller-main',
+            properties: {
+                back_disabled: String
+              },
+            ready: function() {
+
+                this.number_questions = 0;
+                this.test_name = '';
+                this.current_question = 1;
+                this.items = [];
+                this.item_status = null;
+                this.setMode('VIEW');
+                
+                this.assessment_manifest = {
+                    name: 'Smarter Grades 6-8',
+                    items: [
+                        {'number': 1, 'url': '/static/ari3/items/q1/index.html', 'element': '1448'},
+                        {'number': 2, 'url': '/static/ari3/items/q2/index.html', 'element': '1468'},
+                        {'number': 3, 'url': '/static/ari3/items/q3/index.html', 'element': '1470'},
+                        {'number': 4, 'url': '/static/ari3/items/q4/index.html', 'element': '3694'},
+                        {'number': 5, 'url': '/static/ari3/items/q5/index.html', 'element': '3717'},
+                        {'number': 6, 'url': '/static/ari3/items/q6/index.html', 'element': '3738'},
+                    ]
+                };
+
+                this.processAssessmentManifest(this.assessment_manifest);
+                this.addEventListener('itemStatus', this.itemStatus);
+                this.loadQuestion(this.current_question);
+            },
+            itemStatus: function(e) {
+                var status = e.detail.data.status;
+                console.log(status);
+                if (status == 'loading') {
+                    
+                }
+                if (status == 'ready') {
+                    
+                }
+
+                if (status == 'done') {
+                    this.nextQuestion();
+                }
+            },
+            previousQuestion: function() {
+                if (this.current_question != 1) {
+                    this.current_question = this.current_question - 1;
+                    this.loadQuestion(this.current_question);
+                }
+            },
+            nextQuestion: function() {
+                if (this.current_question < this.number_questions) {
+                    this.current_question = this.current_question + 1;
+                    this.loadQuestion(this.current_question);
+                }
+            },
+            processAssessmentManifest: function(assessment_manifest) {
+                this.number_questions = assessment_manifest.items.length;
+                this.test_name = assessment_manifest.name;
+                this.items = assessment_manifest.items;
+            },
+            loadQuestion: function(question_number) {
+                this.clearItemSection();
+                var result = $.grep(this.items, function(e){ return e.number == question_number; })[0];
+
+                var url = result.url;
+                var element = result.element;
+
+                var link = document.createElement('link');
+                link.setAttribute('rel', 'import');
+                link.setAttribute('href', url);
+                document.body.appendChild(link);
+
+                // see if nav buttons should be there
+                this.updateNav();
+
+                $("#itemSection").append('<item-element-'+element+'></item-element-'+element+'>');
+
+            },
+            updateNav: function() {
+                if (this.current_question == 1) {
+                    $( "#backButton" ).addClass("disabled");
+                } else {
+                    $( "#backButton" ).removeClass("disabled");
+                }
+
+                if (this.current_question == this.number_questions) {
+                    $( "#nextButton" ).addClass("disabled");
+                } else {
+                    $( "#nextButton" ).removeClass("disabled");
+                }
+            },
+            clearItemSection: function() {
+                $("#itemSection").empty();
+            },
+            test: function() {
+                console.log('parent');
+            },
+            setMode: function(mode) {
+                this.mode = mode;
+            }
+        });
+    </script>
+
+</dom-module>
+
+

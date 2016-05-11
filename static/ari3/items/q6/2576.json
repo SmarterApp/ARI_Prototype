@@ -1,0 +1,243 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "htq",
+      "id": "2576",
+      "version": "4",
+      "bankkey": "187",
+      "associatedpassage": "3738",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "2576"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "ELA"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "Sustainable Fashion - SBAC_Field"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::ELAG11::SP14 (2); PracTest::ELAG11::SP14::Braille (2);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "HTQ"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "11",
+            "desc": "11"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "HTQ",
+            "desc": "Hottext with QTI rubric"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "HotText"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt."
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3738"
+          },
+          {
+            "attid": "itm_att_Max Choices",
+            "name": "Item:Max Choices",
+            "val": "NA"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1076",
+        "bankkey": "187"
+      },
+      "MachineRubric": { "filename": "Item_2576_v4.qrx" },
+      "content": {
+        "language": "ENU",
+        "version": "2.0",
+        "approvedVersion": "4",
+        "stem": "<p style=\"\">Read the conclusion and the directions that follow.<br /><br />The fashion industry has started to become more sustainable.</p><p style=\"\"><br />Click on the sentence that <span id=\"item_2576_TAG_6_BEGIN\"><span style=\"font-weight:bold; \">best</span></span><span style=\"font-weight:bold; \"> </span>supports this conclusion.</p><p style=\"\"><br /><span id=\"item_2576_TAG_1_BEGIN\"><span class=\"interaction selectable\" data-its-identifier=\"1\" data-its-group=\"1\">Sustainability, however, does not just mean being good to the environment; it also means being fair to fellow human beings.</span></span> Clothing is often made in ways that are hazardous to workers who are underpaid and mistreated. <span id=\"item_2576_TAG_2_BEGIN\"><span class=\"interaction selectable\" data-its-identifier=\"2\" data-its-group=\"1\">One of the goals of the eco-fashion movement is to make sure that the farmers who grow the raw materials and the workers who manufacture the clothing are able to work in safe and fair workplaces.</span></span><br /><br />Eco-fashion’s rise in popularity has even caught the attention of some top fashion designers who are beginning to add organic silks and recycled-plastic fabrics in their clothing. Overall, however, the fashion industry has been slow to pick up on this trend. <span id=\"item_2576_TAG_3_BEGIN\"><span class=\"interaction selectable\" data-its-identifier=\"3\" data-its-group=\"1\">While the big design houses have hesitated, many smaller clothing makers have moved quickly to fill the demand, producing clothes in a sustainable way and marketing their eco-friendliness to consumers.</span></span> If successful, these smaller brands are sure to get the attention of larger brands and others looking to profit from the movement.<br /><br /><span id=\"item_2576_TAG_4_BEGIN\"><span class=\"interaction selectable\" data-its-identifier=\"4\" data-its-group=\"1\">Given this rush to capitalize on eco-fashion’s newfound popularity, consumers who seek true sustainability in the products they buy would do well to remember the old Latin phrase caveat emptor: let the buyer beware.</span></span> Shoppers everywhere are now bombarded with advertising and packaging that touts the “organic,” “fair trade,” or “green” qualities of a product. While some of these terms are defined by regulations (for example, organic crops are certified by the <span id=\"item_2576_TAG_7_BEGIN\">U.S.</span> Food and Drug Administration), others are open to interpretation: what really makes a product “green”? <span id=\"item_2576_TAG_5_BEGIN\"><span class=\"interaction selectable\" data-its-identifier=\"5\" data-its-group=\"1\">Consumers who wish to purchase truly sustainable products should examine the labels closely<span id=\"item_2576_TAG_8_BEGIN\">—</span>and perhaps even do some research on the manufacturers<span id=\"item_2576_TAG_9_BEGIN\">—</span>to make sure the products are actually as eco-friendly as they say they are.</span></span></p>",
+        "rubriclist": {
+          "rubric": {
+            "name": "Rubric ",
+            "val": "<p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">&lt;show or explain one particular correct answer&gt;</p></li></ul><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">&lt;if applicable, list all the correct answers or give a rule for all the correct answers&gt;</p></li></ul><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">&lt;explain what is required for the 1 st point here&gt; (1 point) </p></li></ul><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">&lt;explain what is required for the 2 ndpoint here&gt; (2 point) </p><p style=\"\">AND</p></li><li><p style=\"\">&lt;explain what is required for the 3 rdpoint here&gt; (3 point) </p><p style=\"\">AND</p></li><li><p style=\"\">&lt;explain what is required for the 4 thpoint here&gt; (4 point). </p></li></ul>"
+          },
+          "samplelist": {
+            
+          }
+        },
+        "attachmentlist": {
+          "attachment": [
+            {
+              "id": "braillefile1",
+              "type": "BRF",
+              "subtype": "contracted",
+              "file": "item_2576_enu_contracted.brf"
+            },
+            {
+              "id": "braillefile2",
+              "type": "BRF",
+              "subtype": "uncontracted",
+              "file": "item_2576_enu_uncontracted.brf"
+            }
+          ]
+        },
+        "constraints": {
+          "cardinality": [
+            {
+              "target": "1",
+              "min": "0",
+              "max": "0"
+            },
+            {
+              "min": "1",
+              "max": "0"
+            }
+          ]
+        },
+        "apipAccessibility": {
+          "accessibilityInfo": {
+            "accessElement": [
+              {
+                "identifier": "ae1",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_6_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "best,",
+                    "textToSpeechPronunciationAlternate": "best"
+                  },
+                  "brailleText": { "brailleTextString": "best" }
+                }
+              },
+              {
+                "identifier": "ae2",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  
+                }
+              },
+              {
+                "identifier": "ae3",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_2_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  
+                }
+              },
+              {
+                "identifier": "ae4",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_3_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  
+                }
+              },
+              {
+                "identifier": "ae5",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_4_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  
+                }
+              },
+              {
+                "identifier": "ae6",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_7_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "U S",
+                    "textToSpeechPronunciationAlternate": "U.S."
+                  },
+                  "brailleText": { "brailleTextString": "U.S." }
+                }
+              },
+              {
+                "identifier": "ae7",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_5_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  
+                }
+              },
+              {
+                "identifier": "ae8",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_8_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": ",",
+                    "textToSpeechPronunciationAlternate": "—"
+                  },
+                  "brailleText": { "brailleTextString": "—" }
+                }
+              },
+              {
+                "identifier": "ae9",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_2576_TAG_9_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": ",",
+                    "textToSpeechPronunciationAlternate": "—"
+                  },
+                  "brailleText": { "brailleTextString": "—" }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

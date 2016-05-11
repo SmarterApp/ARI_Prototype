@@ -1,0 +1,203 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "gi",
+      "id": "1505",
+      "version": "14",
+      "bankkey": "187",
+      "associatedpassage": "3694",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1505"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA08_PT_HTBEAT_Q1"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::Perf::SP13 (1); PracTest::MG8::Perf::SP13::ENU::Refresh (1); PracTest::MG8::Perf::SP13::ESN::Refresh (1);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "GI"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "GI",
+            "desc": "GI [2]"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "Grid"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt.",
+            "desc": "1 Point"
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1075",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1633",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1505_v14.qrx" },
+      "RendererSpec": { "filename": "Item_1505_v14.gax" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "14",
+          "stem": "<p style=\"line-height:1.15em; \">The data from Table 1 are <span id=\"item_1505_TAG_6\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>plotted<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_6\" data-tag-boundary=\"end\"></span> <span id=\"item_1505_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>below<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_7\" data-tag-boundary=\"end\"></span>. <span id=\"item_1505_TAG_2_BEGIN\"><span id=\"item_1505_TAG_2\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>Use<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_2\" data-tag-boundary=\"end\"></span></span> the <span id=\"item_1505_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>Connect Line tool<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_8\" data-tag-boundary=\"end\"></span> to create a linear model of these <span id=\"item_1505_TAG_1_BEGIN\">data.</span> </p>",
+          "rubriclist": {
+            "rubric": {
+              "name": "Rubric ",
+              "val": "<p style=\"\">Exemplar:</p><p style=\"\">&#xA0;</p><p style=\"\">Line of best fit is y = -0.11x + 102</p><p style=\"\">&#xA0;</p><p style=\"\">Award 1 point if student response falls approximately within the region below. </p><p style=\"\">&#xA0;</p><p style=\"\"><img id=\"item_1505_graphics1\" src=\"item_1505_v14_graphics1_png256.png\" width=\"607\" height=\"336\" style=\"vertical-align:baseline;\" /></p><p style=\"\">&#xA0;</p><p style=\"\">Other Correct Responses:</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">&#xA0;N/A</p></li></ul><p style=\"\">&#xA0;</p><p style=\"\">For this item, a full-credit response includes</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">A line within the acceptable range (1 point). </p></li></ul><p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              
+            }
+          },
+          "attachmentlist": {
+            "attachment": {
+              "pass": "true",
+              "id": "aslfile1",
+              "type": "ASL",
+              "subtype": "STEM",
+              "file": "item_1505_ASL_STEM.MP4"
+            }
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae3",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1505_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "ewes",
+                      "textToSpeechPronunciationAlternate": "Use"
+                    },
+                    "brailleText": { "brailleTextString": "Use" }
+                  }
+                },
+                {
+                  "identifier": "ae5",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1505_TAG_1_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "data. This is an interactive image.  From left to right, the blue buttons above the image reed, delete, Connect line.  The x axis of the graph is titled, Average Body Weight, in kilograms. The axis has a range from 0 to 6 hundred, increasing in increments of 1 hundred. The why axis is titled, Average Pulse Rate, in beat per minute. The axis has a range from 0 to 3 hundred, increasing in increments of 50.",
+                      "textToSpeechPronunciationAlternate": "data."
+                    },
+                    "brailleText": { "brailleTextString": "data." }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "14",
+          "stem": "<p style=\"line-height:115%; \">Los datos de la Tabla 1 están graficados a continuación. Usa la herramienta Conectar línea para hacer un modelo lineal de estos datos.</p><p class=\"languagedivider\">&#xA0;</p><p style=\"line-height:115%; \">The data from Table 1 are <span id=\"item_1505_TAG_6\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>plotted<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_6\" data-tag-boundary=\"end\"></span> <span id=\"item_1505_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>below<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_7\" data-tag-boundary=\"end\"></span>. <span id=\"item_1505_TAG_2_BEGIN\"><span id=\"item_1505_TAG_2\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>Use<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_2\" data-tag-boundary=\"end\"></span></span> the <span id=\"item_1505_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>Connect Line tool<span class=\"its-tag\" data-tag-ref=\"item_1505_TAG_8\" data-tag-boundary=\"end\"></span> to create a linear model of these <span id=\"item_1505_TAG_1_BEGIN\">data.</span> </p>",
+          "rubriclist": {
+            "rubric": {
+              "scorepoint": "_Spanish",
+              "name": "Rubric _Spanish",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              "maxval": "_Spanish",
+              "minval": "_Spanish"
+            }
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae3",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1505_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "ewes",
+                      "textToSpeechPronunciationAlternate": "Use"
+                    },
+                    "brailleText": { "brailleTextString": "Use" }
+                  }
+                },
+                {
+                  "identifier": "ae5",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1505_TAG_1_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "data. This is an interactive image.  From left to right, the blue buttons above the image reed, delete, Connect line.  The x axis of the graph is titled, Average Body Weight, in kilograms. The axis has a range from 0 to 6 hundred, increasing in increments of 1 hundred. The why axis is titled, Average Pulse Rate, in beat per minute. The axis has a range from 0 to 3 hundred, increasing in increments of 50.",
+                      "textToSpeechPronunciationAlternate": "data."
+                    },
+                    "brailleText": { "brailleTextString": "data." }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

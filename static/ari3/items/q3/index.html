@@ -1,0 +1,55 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="item-element-1470">
+
+	<link rel="import" type="css" href="style.css">
+
+	<template>
+
+		<div id="itemQuestion"></div>
+
+		<textarea class="itemTextArea"></textarea>
+
+	</template>
+
+	<script>
+		Polymer({
+			is: 'item-element-1470',
+			ready: function() {
+				this.fire('ariItemStatus', {data: {'status':'loading'}});
+				var me = this;
+				this.question = "";
+				this.item = "";
+				this.response = "";
+
+				$.getJSON(this.resolveUrl('item.json'),function(data){
+					me.processJSON(data);
+				});
+
+			},
+			processJSON: function(data) {
+				console.log(data);
+				this.item = data.itemrelease.item;
+				console.log(data.itemrelease.item);
+				this.question = this.item.content[0].stem;
+
+				this.$.itemQuestion.innerHTML = this.question;
+
+
+				this.fire('ariItemStatus', {data: {'status':'ready'}});
+			},
+			itemSelected: function(event, detail, sender){
+				this.itemDone();
+			},
+			itemDone: function() {
+				this.fire('ariItemStatus', {data: {'status':'done'}});
+				this.remove();
+			},
+		});
+	</script>
+
+</dom-module>
+
+
+
+

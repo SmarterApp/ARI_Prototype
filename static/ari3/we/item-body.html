@@ -1,0 +1,41 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="item-body">
+
+	<link rel="import" type="css" href="item-body.css">
+
+	<template>
+		<content id="content"></content>
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'item-body',
+			properties: {
+          		data: Object,
+        	},
+			ready: function() {
+				console.log('ssss');
+				this.question = null;
+				this.choices = [];
+
+			},
+			created: function() {
+			},
+			attached: function() {
+				//var nodes = Polymer.dom(this.$.content).getDistributedNodes();
+				//for (el in nodes) {
+				//	var this_html = nodes[el];
+					//console.log(this_html.innerHTML);
+				//}
+			},
+		});
+
+	</script>
+
+</dom-module>
+
+
+
+

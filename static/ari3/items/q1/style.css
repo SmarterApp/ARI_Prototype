@@ -1,0 +1,21 @@
+#itemQuestion {
+	text-align:center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#itemOptions {
+	display: table;
+    margin: 0 auto;
+	margin-top:60px;
+}
+
+.itemOptionsNewLine {
+	display:block;
+}
+
+.itemOptionsGroup {
+	display:inline-block;
+	margin:30px;
+	cursor:pointer;
+}

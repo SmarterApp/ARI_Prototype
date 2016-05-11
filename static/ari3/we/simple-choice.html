@@ -1,0 +1,56 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<link rel="import" href="/static/ari3/bower_components/paper-radio-button/paper-radio-button.html">
+
+
+<dom-module id="simple-choice">
+
+	<link rel="import" type="css" href="simple-choice.css">
+
+	<template>
+		<div class="simpleChoiceSection">
+			<div class="simpleChoiceRadio">
+				<paper-radio-button></paper-radio-button>
+			</div>
+			<div class="simpleChoiceContent">
+				<content id="simple_choice_content"></content></div>
+			</div>
+		</div>
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'simple-choice',
+			properties: {
+          		identifier: String,
+        	},
+			ready: function() {
+			},
+			created: function() {
+			},
+			attached: function() {
+				console.log(this.identifier);
+				var nodes = Polymer.dom(this.$.simple_choice_content).getDistributedNodes();
+				for (el in nodes) {
+					var this_html = nodes[el];
+					console.log(this_html.innerHTML);
+				}
+			},
+			getName: function(name) {
+				return "name_"+name;
+			},
+			getID: function(iden) {
+				return "thisid_"+iden;
+			}
+		});
+
+	</script>
+
+</dom-module>
+
+
+
+
+
+

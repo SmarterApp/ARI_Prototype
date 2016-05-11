@@ -1,0 +1,199 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+
+<dom-module id="type-gi">
+
+	<link rel="import" type="css" href="type-gi.css">
+
+	<template>
+		<div id="item_gi_question" class="itemQuestion">{{question}}</div>
+
+		<div class="">
+			<button type="button" id="deleteGI" class="btn btn-default btn-xs" on-click="deleteGI">delete</button>
+			<button type="button" id="connectGI" class="btn btn-default btn-xs" on-click="connectGI">connect</button>
+		</div>
+
+
+		<div id="simpleChart" class="chartWrapper"></div>
+	</template>
+
+	<script>
+		Polymer({
+			is: 'type-gi',
+			properties: {
+          		data: Object,
+        	},
+			created: function() {
+
+			},
+			attached: function() {
+				this.question = null;
+
+				this.r = null;
+				this.connections = [];
+				this.chart = null;
+				this.is_link_mode = false;
+				this.node = null;
+				this.delete_mode = false;
+				this.connect_mode = false;
+
+				console.log(this.data);
+
+				this.setupQuestion();
+
+				this.displayGI();
+
+			},
+			setupQuestion: function() {
+				this.$.item_gi_question.innerHTML = this.data.json.itemrelease.item.content[0].stem;
+				this.updateStyles();
+			},
+			displayGI: function() {
+				this.setupGI();
+			},
+			deleteGI: function() {
+				this.delete_mode = true;
+				this.connect_mode = false;
+
+				$("#deleteGI").removeClass("btn-default");
+				$("#deleteGI").addClass("btn-primary");
+
+				$("#connectGI").removeClass("btn-primary");
+				$("#connectGI").addClass("btn-default");
+			},
+			connectGI: function() {
+				this.connect_mode = true;
+				this.delete_mode = false;
+
+				$("#connectGI").removeClass("btn-default");
+				$("#connectGI").addClass("btn-primary");
+
+				$("#deleteGI").removeClass("btn-primary");
+				$("#deleteGI").addClass("btn-default");
+
+
+			},
+			setupGI: function() {
+
+				var me = this;
+				this.r = Raphael("simpleChart");
+				this.chart = this.r.linechart(20, 20, 300, 220, 
+						[
+							[3, 28, 56, 192, 362, 465, 521],
+						], 
+						[
+							[130, 75, 75, 95, 48, 66, 34], 
+						], 
+						{ 
+							nostroke: true, 
+							axis: "0 0 1 1", 
+							symbol: "circle", 
+							smooth: true,
+							xdim: { from: 0, to: 600 },
+							ydim: { from: 0, to: 300 },
+							axisxstep: 12,
+							axisystep: 6,
+							
+						}
+					).clickColumn(function(e) {
+						if (me.connect_mode === true) {
+							var x = e.offsetX;
+							var y = e.offsetY;
+
+							me.addNodeGI(x, y);
+						}
+
+						console.log(e);
+				});
+
+				$( "#simpleChart" ).mousemove(function( e ) {
+					//console.log(e);
+					if (me.is_link_mode === true) {
+						var node = me.node;
+						node.attr({"cx":e.offsetX, "cy": e.offsetY});
+						for (var i = me.connections.length; i--;) {
+							me.r.connection(me.connections[i]);
+						}
+
+					}
+
+				});
+
+
+			},
+			addNodeGI: function(x, y) {
+
+
+				console.log('sdf');
+				var me = this;
+
+				if (this.is_link_mode === false) {
+
+					this.is_link_mode = true;
+
+					var ellipse = this.r.ellipse(x, y, 5, 5);
+					ellipse.attr({'fill': '#ff0000'});
+
+					var ellipse_2 = this.r.ellipse(x, y, 5, 5);
+					ellipse_2.attr({'fill': '#ff0000'});
+
+
+
+					var dragger = function () {
+						if (me.delete_mode === false) {
+							this.ox = this.type == "rect" ? this.attr("x") : this.attr("cx");
+							this.oy = this.type == "rect" ? this.attr("y") : this.attr("cy");
+						}
+						//this.animate({"fill-opacity": .2}, 500);
+					};
+
+					var move = function (dx, dy) {
+						if (me.delete_mode === false) {
+							var att = this.type == "rect" ? {x: this.ox + dx, y: this.oy + dy} : {cx: this.ox + dx, cy: this.oy + dy};
+							this.attr(att);
+							for (var i = me.connections.length; i--;) {
+								me.r.connection(me.connections[i]);
+							}
+						}
+					};
+
+					ellipse.drag(move, dragger, up);
+
+					var up = function () {
+						//this.animate({"fill-opacity": 0}, 500);
+					};
+				
+					this.node = ellipse_2;
+
+					ellipse.mousedown(function(e) {
+						if (me.delete_mode === true) {
+							// delete line
+							for (var i = me.connections.length; i--;) {
+								if (me.connections[i].from == this || me.connections[i].to == this) {
+									me.connections[i].line.remove();
+									me.connections.splice(i, 1);
+								}
+							}
+							this.remove();
+
+						}
+					});
+
+					ellipse_2.mousedown(function(e) {
+						me.is_link_mode = false;
+					});
+
+					this.connections.push(this.r.connection(ellipse, ellipse_2, "#000"));
+
+				} else {
+					
+				}
+				
+			}
+
+	});
+
+
+
+	</script>
+</dom-module>

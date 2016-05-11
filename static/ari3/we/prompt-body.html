@@ -1,0 +1,43 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+
+
+<dom-module id="prompt-body">
+
+	<link rel="import" type="css" href="prompt-body.css">
+
+	<template>
+		<div class="promptContent"><content id="promp_content"></content></div>
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'prompt-body',
+			properties: {
+          		data: Object,
+        	},
+			ready: function() {
+			},
+			created: function() {
+			},
+			attached: function() {
+				//var nodes = Polymer.dom(this.$.promp_content).getDistributedNodes();
+				//console.log(nodes);
+				//for (el in nodes) {
+				//	var this_html = nodes[el];
+				//	//console.log(this_html.innerHTML);
+				//}
+			},
+		});
+
+	</script>
+
+</dom-module>
+
+
+
+
+
+
+

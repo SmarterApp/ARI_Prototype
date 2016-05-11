@@ -1,0 +1,85 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="item-element-1468">
+
+	<link rel="import" type="css" href="style.css">
+
+	<template>
+
+		<div id="itemQuestion"></div>
+
+		<FORM NAME="Calc" class="calc">
+		<TABLE BORDER=4>
+		<TR>
+		<TD>
+		<INPUT TYPE="text"   NAME="Input" Size="16">
+		<br>
+		</TD>
+		</TR>
+		<TR>
+		<TD>
+		<INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+		<INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+		<INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+		<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+		<br>
+		<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'">
+		<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+		<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+		<INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+		<br>
+		<INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+		<INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+		<INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
+		<INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+		<br>
+		<INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+		<INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+		<INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+		<INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+		<br>
+		</TD>
+		</TR>
+		</TABLE>
+		</FORM>
+	</template>
+
+	<script>
+		Polymer({
+			is: 'item-element-1468',
+			ready: function() {
+				this.fire('ariItemStatus', {data: {'status':'loading'}});
+				var me = this;
+				this.question = "";
+				this.item = "";
+				this.response = "";
+
+				$.getJSON('/static/ari3/items/q2/item.json',function(data){
+					me.processJSON(data);
+				});
+
+			},
+			processJSON: function(data) {
+				console.log(data);
+				this.item = data.itemrelease.item;
+				console.log(data.itemrelease.item);
+				this.question = this.item.content[0].stem;
+
+				this.$.itemQuestion.innerHTML = this.question;
+
+
+				this.fire('ariItemStatus', {data: {'status':'ready'}});
+			},
+			itemSelected: function(event, detail, sender){
+				this.itemDone();
+			},
+			itemDone: function() {
+				this.fire('ariItemStatus', {data: {'status':'done'}});
+				this.remove();
+			},
+		});
+	</script>
+
+</dom-module>
+
+

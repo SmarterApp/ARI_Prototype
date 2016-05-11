@@ -1,0 +1,209 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "nl",
+      "id": "1519",
+      "version": "9",
+      "bankkey": "187",
+      "associatedpassage": "3694",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1519"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA08_PT_HTBEAT_Q4b"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::Perf::SP13 (5); PracTest::MG8::Perf::SP13::BRAILLE (5); PracTest::MG8::Perf::SP13::ENU::Refresh (5); PracTest::MG8::Perf::SP13::BRL::Refresh (5); PracTest::MG8::Perf::SP13::ESN::Refresh (5);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "NL"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "NL",
+            "desc": "NL [3]"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "PlainText"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "2 pts.",
+            "desc": "2 Points"
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1078",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1637",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1519_v9.nlx" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "9",
+          "stem": "<p style=\"font-style:italic; font-weight:bold; \">Part <span id=\"item_1519_TAG_1_BEGIN\">B</span></p><p style=\"\">&#xA0;</p><p style=\"\">Explain <span id=\"item_1519_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>whether<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_8\" data-tag-boundary=\"end\"></span> the predicted <span id=\"item_1519_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_9\" data-tag-boundary=\"end\"></span> <span id=\"item_1519_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_10\" data-tag-boundary=\"end\"></span> in Part A is <span id=\"item_1519_TAG_13\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>reasonable<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_13\" data-tag-boundary=\"end\"></span> in the <span id=\"item_1519_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>context<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_11\" data-tag-boundary=\"end\"></span> of the <span id=\"item_1519_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>situation<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_12\" data-tag-boundary=\"end\"></span>.</p><p style=\"\">&#xA0;</p>",
+          "rubriclist": {
+            "rubric": [
+              {
+                "scorepoint": "2",
+                "name": "Rubric 2",
+                "val": "<p style=\"\">Award 2 points if:</p><p style=\"\">response indicates that the value is not reasonable.</p><p style=\"\">AND</p><p style=\"\">response identifies the issue of having a negative average pulse rate.</p>"
+              },
+              {
+                "scorepoint": "1",
+                "name": "Rubric 1",
+                "val": "<p style=\"\">Award 1 point if response indicates that the value is not reasonable.</p><p style=\"\">OR</p><p style=\"\">Award 1 point if response identifies the issue of having a negative average pulse rate.</p><p style=\"\">&#xA0;</p>"
+              },
+              {
+                "scorepoint": "0",
+                "name": "Rubric 0",
+                "val": "<p style=\"\">The response does not meet the criteria required to earn one point. The response indicates inadequate or no understanding of the task and/or the idea or concept needed to answer the item. It may only repeat information given in the test item. The response may provide an incorrect solution/response and the provided supportive information may be irrelevant to the item, or possibly, no other information is shown. The student may have written on a different topic or written, “I don't know.”</p>"
+              }
+            ],
+            "samplelist": [
+              {
+                "maxval": "2",
+                "minval": "2",
+                "sample": {
+                  "purpose": "OtherExemplar",
+                  "scorepoint": "2",
+                  "name": "2-Point Other Official Sample Answers",
+                  "samplecontent": "<p style=\"\">A pulse of -558 per minute is not reasonable because it is not possible to have a negative average pulse rate.</p>"
+                }
+              },
+              {
+                "maxval": "1",
+                "minval": "1",
+                "sample": {
+                  "purpose": "Exemplar",
+                  "scorepoint": "1",
+                  "name": "1-Point Official Sample Answer",
+                  "samplecontent": "<p style=\"\">A pulse of -558 per minute is not reasonable </p>"
+                }
+              },
+              {
+                "maxval": "0",
+                "minval": "0",
+                "sample": {
+                  "purpose": "Exemplar",
+                  "scorepoint": "0",
+                  "name": "0-Point Official Sample Answer",
+                  "samplecontent": "<p style=\"\">NA</p>"
+                }
+              }
+            ]
+          },
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "item_1519_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "item_1519_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae1",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1519_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "Bee;",
+                    "textToSpeechPronunciationAlternate": "B"
+                  },
+                  "brailleText": { "brailleTextString": "B" }
+                }
+              }
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "9",
+          "stem": "<p style=\"font-style:italic; font-weight:bold; \">Parte B</p><p style=\"\">&#xA0;</p><p style=\"\">Explica si la predicción del pulso cardiaco promedio de la parte A es razonable dentro del contexto de la situación.</p><p style=\"\">&#xA0;</p><p class=\"languagedivider\">&#xA0;</p><p style=\"font-style:italic; font-weight:bold; \">Part <span id=\"item_1519_TAG_1_BEGIN\">B</span></p><p style=\"\">&#xA0;</p><p style=\"\">Explain <span id=\"item_1519_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>whether<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_8\" data-tag-boundary=\"end\"></span> the predicted <span id=\"item_1519_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_9\" data-tag-boundary=\"end\"></span> <span id=\"item_1519_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_10\" data-tag-boundary=\"end\"></span> in Part A is <span id=\"item_1519_TAG_13\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>reasonable<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_13\" data-tag-boundary=\"end\"></span> in the <span id=\"item_1519_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>context<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_11\" data-tag-boundary=\"end\"></span> of the <span id=\"item_1519_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>situation<span class=\"its-tag\" data-tag-ref=\"item_1519_TAG_12\" data-tag-boundary=\"end\"></span>.</p><p style=\"\">&#xA0;</p>",
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae1",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1519_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "Bee;",
+                    "textToSpeechPronunciationAlternate": "B"
+                  },
+                  "brailleText": { "brailleTextString": "B" }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

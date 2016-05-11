@@ -1,0 +1,206 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "mc",
+      "id": "1601",
+      "version": "5",
+      "bankkey": "187",
+      "associatedpassage": "3694",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1601"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "Cloned for ITS 1505 MA08_PT_HTBEAT_Q1"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::Perf::SP13::BRAILLE (1);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "C"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "MC",
+            "desc": "MC4 [1]"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "8"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "Stacked"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt.",
+            "desc": "1 Point"
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          }
+        ]
+      },
+      "content": {
+        "language": "ENU",
+        "version": "2.0",
+        "approvedVersion": "5",
+        "concept": {
+          "name": "What Knowledge Do Students Need to Understand This Concept?",
+          "val": "<p style=\"\">&#xA0;</p>"
+        },
+        "es": {
+          "name": "Explanation of Correct Answer",
+          "val": "<p style=\"\">&#xA0;</p>"
+        },
+        "himi": {
+          "name": "Explanation of Correct Answer",
+          "val": "<p style=\"\">&#xA0;</p>"
+        },
+        "rationaleoptlist": {
+          "rationale": [
+            {
+              "name": "Rationale for Option A",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Rationale for Option B",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Rationale for Option C",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Rationale for Option D",
+              "val": "<p style=\"\">&#xA0;</p>"
+            }
+          ]
+        },
+        "stem": "<p style=\"line-height:115%; \">Which is the best linear model of the data from Table 1?</p>",
+        "optionlist": {
+          "option": [
+            {
+              "name": "Option A",
+              "val": "<p style=\"\"><img id=\"item_1601_graphics1\" src=\"item_1601_v5_graphics1_png256.png\" width=\"400\" height=\"257\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Option B",
+              "val": "<p style=\"\"><img id=\"item_1601_graphics2\" src=\"item_1601_v5_graphics2_png256.png\" width=\"400\" height=\"257\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Option C",
+              "val": "<p style=\"\"><img id=\"item_1601_graphics3\" src=\"item_1601_v5_graphics3_png256.png\" width=\"400\" height=\"257\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Option D",
+              "val": "<p style=\"\"><img id=\"item_1601_graphics4\" src=\"item_1601_v5_graphics4_png256.png\" width=\"400\" height=\"257\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            }
+          ]
+        },
+        "attachmentlist": {
+          "attachment": {
+            "id": "file2",
+            "type": "PRN",
+            "subtype": "nemeth",
+            "file": "item_1601_enu_nemeth.prn"
+          }
+        },
+        "apipAccessibility": {
+          "accessibilityInfo": {
+            "accessElement": [
+              {
+                "identifier": "ae1",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1601_graphics1",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "audioText": "The x axis is titled: Average body weight, in kilograms. The axis has a range from 0 to 600 increasing in increments of 100. The why axis is titled: Average pulse rate, in beats per minute. The axis has a range from 0 to 300 increasing in increments of 50."
+                  }
+                }
+              },
+              {
+                "identifier": "ae2",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1601_graphics2",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "audioText": "The x axis is titled: Average body weight, in kilograms. The axis has a range from 0 to 600 increasing in increments of 100. The why axis is titled: Average pulse rate, in beats per minute. The axis has a range from 0 to 300 increasing in increments of 50."
+                  }
+                }
+              },
+              {
+                "identifier": "ae3",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1601_graphics3",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "audioText": "The x axis is titled: Average body weight, in kilograms. The axis has a range from 0 to 600 increasing in increments of 100. The why axis is titled: Average pulse rate, in beats per minute. The axis has a range from 0 to 300 increasing in increments of 50."
+                  }
+                }
+              },
+              {
+                "identifier": "ae4",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1601_graphics4",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "audioText": "The x axis is titled: Average body weight, in kilograms. The axis has a range from 0 to 600 increasing in increments of 100. The why axis is titled: Average pulse rate, in beats per minute. The axis has a range from 0 to 300 increasing in increments of 50."
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

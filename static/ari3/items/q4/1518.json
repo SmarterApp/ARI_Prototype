@@ -1,0 +1,210 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "eq",
+      "id": "1518",
+      "version": "6",
+      "bankkey": "187",
+      "associatedpassage": "3694",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1518"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA08_PT_HTBEAT_Q4a"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::Perf::SP13 (4); PracTest::MG8::Perf::SP13::BRAILLE (4); PracTest::MG8::Perf::SP13::ENU::Refresh (4); PracTest::MG8::Perf::SP13::BRL::Refresh (4); PracTest::MG8::Perf::SP13::ESN::Refresh (4);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "EquationEditor"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt."
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1074",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1636",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1518_v6.qrx" },
+      "RendererSpec": { "filename": "Item_1518_v6.eax" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "6",
+          "stem": "<p style=\"font-variant:normal; text-transform:none; font-style:italic; font-weight:bold; \"><span id=\"item_1518_TAG_2_BEGIN\">Part A</span></p><p style=\"font-variant:normal; text-transform:none; \">&#xA0;</p><p style=\"\"><span id=\"item_1518_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>Based on<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_8\" data-tag-boundary=\"end\"></span> the equation from Item 2, predict the <span id=\"item_1518_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_9\" data-tag-boundary=\"end\"></span> <span id=\"item_1518_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_10\" data-tag-boundary=\"end\"></span> in <span id=\"item_1518_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>beats<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_11\" data-tag-boundary=\"end\"></span> <span id=\"item_1518_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>per<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_12\" data-tag-boundary=\"end\"></span> minute, of an animal <span id=\"item_1518_TAG_13\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>that weighs<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_13\" data-tag-boundary=\"end\"></span> <span id=\"item_1518_TAG_3_BEGIN\">6000</span> kilograms.</p><p style=\"\">&#xA0;</p>",
+          "rubriclist": {
+            "rubric": {
+              "name": "Rubric ",
+              "val": "<p style=\"\">&#xA0;</p><p style=\"\">Exemplar:</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">-558</p></li></ul><p style=\"\">&#xA0;</p><p style=\"\">Other Correct Responses:</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">N/A</p></li></ul><p style=\"\">&#xA0;</p><p style=\"\">For this item, a full-credit response includes</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">The correct value (1 point). </p></li></ul><p style=\"\">&#xA0;</p><p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              
+            }
+          },
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "item_1518_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "item_1518_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae1",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1518_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "Part A;",
+                      "textToSpeechPronunciationAlternate": "Part A"
+                    },
+                    "brailleText": { "brailleTextString": "Part A" }
+                  }
+                },
+                {
+                  "identifier": "ae8",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1518_TAG_3_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "6 thousand",
+                      "textToSpeechPronunciationAlternate": "6000"
+                    },
+                    "brailleText": { "brailleTextString": "6000" }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "6",
+          "stem": "<p style=\"font-variant:normal; text-transform:none; font-style:italic; font-weight:bold; \">Parte A</p><p style=\"font-variant:normal; text-transform:none; \">&#xA0;</p><p style=\"\">Basándote en la ecuación de la pregunta 2, haz una predicción del pulso cardiaco promedio, en latidos por minuto, de un animal que pesa 6000 kilogramos.</p><p style=\"\">&#xA0;</p><p class=\"languagedivider\">&#xA0;</p><p style=\"font-variant:normal; text-transform:none; font-style:italic; font-weight:bold; \"><span id=\"item_1518_TAG_2_BEGIN\">Part A</span></p><p style=\"font-variant:normal; text-transform:none; \">&#xA0;</p><p style=\"\"><span id=\"item_1518_TAG_8\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>Based on<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_8\" data-tag-boundary=\"end\"></span> the equation from Item 2, predict the <span id=\"item_1518_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>average<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_9\" data-tag-boundary=\"end\"></span> <span id=\"item_1518_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>pulse rate<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_10\" data-tag-boundary=\"end\"></span> in <span id=\"item_1518_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>beats<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_11\" data-tag-boundary=\"end\"></span> <span id=\"item_1518_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>per<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_12\" data-tag-boundary=\"end\"></span> minute, of an animal <span id=\"item_1518_TAG_13\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>that weighs<span class=\"its-tag\" data-tag-ref=\"item_1518_TAG_13\" data-tag-boundary=\"end\"></span> <span id=\"item_1518_TAG_3_BEGIN\">6000</span> kilograms.</p><p style=\"\">&#xA0;</p>",
+          "rubriclist": {
+            "rubric": {
+              "scorepoint": "_Spanish",
+              "name": "Rubric _Spanish",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              "maxval": "_Spanish",
+              "minval": "_Spanish"
+            }
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": [
+                {
+                  "identifier": "ae1",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1518_TAG_2_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "Part A;",
+                      "textToSpeechPronunciationAlternate": "Part A"
+                    },
+                    "brailleText": { "brailleTextString": "Part A" }
+                  }
+                },
+                {
+                  "identifier": "ae8",
+                  "contentLinkInfo": {
+                    "itsLinkIdentifierRef": "item_1518_TAG_3_BEGIN",
+                    "type": "Text"
+                  },
+                  "relatedElementInfo": {
+                    "readAloud": {
+                      "textToSpeechPronunciation": "6 thousand",
+                      "textToSpeechPronunciationAlternate": "6000"
+                    },
+                    "brailleText": { "brailleTextString": "6000" }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+

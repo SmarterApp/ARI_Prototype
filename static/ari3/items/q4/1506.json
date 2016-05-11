@@ -1,0 +1,177 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "item": {
+      "format": "eq",
+      "id": "1506",
+      "version": "7",
+      "bankkey": "187",
+      "associatedpassage": "3694",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1506"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA08_PT_HTBEAT_Q2"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::Perf::SP13 (2); PracTest::MG8::Perf::SP13::BRAILLE (2); PracTest::MG8::Perf::SP13::ENU::Refresh (2); PracTest::MG8::Perf::SP13::BRL::Refresh (2); PracTest::MG8::Perf::SP13::ESN::Refresh (2);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "EquationEditor"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "2 pts."
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3694"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1074",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1634",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1506_v7.qrx" },
+      "RendererSpec": { "filename": "Item_1506_v7.eax" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "7",
+          "stem": "<p style=\"\"><span id=\"item_1506_TAG_4\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>What<span class=\"its-tag\" data-tag-ref=\"item_1506_TAG_4\" data-tag-boundary=\"end\"></span> is the equation of the line you <span id=\"item_1506_TAG_5\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>drew<span class=\"its-tag\" data-tag-ref=\"item_1506_TAG_5\" data-tag-boundary=\"end\"></span> in Item <span id=\"item_1506_TAG_1_BEGIN\">1? </span></p><p style=\"\">&#xA0;</p>",
+          "rubriclist": {
+            "rubric": {
+              "name": "Rubric ",
+              "val": "<p style=\"\">&#xA0;</p><p style=\"\">Exemplar:</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">Line of best fit is y = -0.11x + 102</p></li></ul><p style=\"\">Award 1 point if slope is negative.</p><p style=\"\">Award 1 point if the y-intercept is between 70 and 130</p><p style=\"\">&#xA0;</p><p style=\"\">Other Correct Responses:</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">Any line with a negative slope (1 point).</p><p style=\"\">OR</p></li><li><p style=\"\">Any line with y-intercept between 70 and 130 (1 point).</p></li></ul><p style=\"\">&#xA0;</p><p style=\"\">For this item, a full-credit response includes</p><p style=\"\">&#xA0;</p><ul style=\"padding-left:1.5000em; \"><li><p style=\"\">y = -0.11x + 102 &#xA0;(2 points). </p></li></ul><p style=\"\">&#xA0;</p><p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              
+            }
+          },
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "item_1506_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "item_1506_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae3",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1506_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "1? The equation tool has two sections. In the left section, from left to right and top to bottom the equation tool reeds, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, point, negative.  In the right section mathematical functions are displayed.",
+                    "textToSpeechPronunciationAlternate": "1?"
+                  },
+                  "brailleText": { "brailleTextString": "1?" }
+                }
+              }
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "7",
+          "stem": "<p style=\"\">¿Cuál es la ecuación de la línea que dibujaste en la pregunta 1?</p><p class=\"languagedivider\">&#xA0;</p><p style=\"\"><span id=\"item_1506_TAG_4\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>What<span class=\"its-tag\" data-tag-ref=\"item_1506_TAG_4\" data-tag-boundary=\"end\"></span> is the equation of the line you <span id=\"item_1506_TAG_5\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>drew<span class=\"its-tag\" data-tag-ref=\"item_1506_TAG_5\" data-tag-boundary=\"end\"></span> in Item <span id=\"item_1506_TAG_1_BEGIN\">1? </span></p><p style=\"\">&#xA0;</p>",
+          "rubriclist": {
+            "rubric": {
+              "scorepoint": "_Spanish",
+              "name": "Rubric _Spanish",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              "maxval": "_Spanish",
+              "minval": "_Spanish"
+            }
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae3",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1506_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "1? The equation tool has two sections. In the left section, from left to right and top to bottom the equation tool reeds, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, point, negative.  In the right section mathematical functions are displayed.",
+                    "textToSpeechPronunciationAlternate": "1?"
+                  },
+                  "brailleText": { "brailleTextString": "1?" }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

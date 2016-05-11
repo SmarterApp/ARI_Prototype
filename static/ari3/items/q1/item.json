@@ -1,0 +1,214 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "ari_url": "/static/ari3/items/q1/index.html",
+    "id": "1448",
+    "item": {
+      "format": "mc",
+      "version": "10",
+      "bankkey": "187",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1448"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "Cloned from ITS 766"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG8::S2::SP13::BRAILLE (5); Math Training HS::SP 14::Braille (8); PracTest::MG8::S2::SP14::Braille (2);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "B"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "8",
+            "desc": "8"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "MC",
+            "desc": "MC4 [1]"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "8"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "Stacked"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt.",
+            "desc": "1 Point"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1072",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "2350",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "content": {
+        "language": "ENU",
+        "version": "2.0",
+        "approvedVersion": "10",
+        "concept": {
+          "name": "What Knowledge Do Students Need to Understand This Concept?",
+          "val": "<p style=\"\">&#xA0;</p>"
+        },
+        "es": {
+          "name": "Explanation of Correct Answer",
+          "val": "<p style=\"\">&#xA0;</p>"
+        },
+        "himi": {
+          "name": "Explanation of Correct Answer",
+          "val": "<p style=\"\">&#xA0;</p>"
+        },
+        "rationaleoptlist": {
+          "rationale": [
+            {
+              "name": "Rationale for Option A",
+              "val": "<p style=\"\">If a student chooses A,</p>"
+            },
+            {
+              "name": "Rationale for Option B",
+              "val": "<p style=\"\">If a student chooses B,</p>"
+            },
+            {
+              "name": "Rationale for Option C",
+              "val": "<p style=\"\">If a student chooses C,</p>"
+            },
+            {
+              "name": "Rationale for Option D",
+              "val": "<p style=\"\">If a student chooses D,</p>"
+            }
+          ]
+        },
+        "stem": "<p style=\"\">Coffee costs $2 <span id=\"item_1448_TAG_5\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>per<span class=\"its-tag\" data-tag-ref=\"item_1448_TAG_5\" data-tag-boundary=\"end\"></span> pound at a coffee shop. <span id=\"item_1448_TAG_6\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>Which<span class=\"its-tag\" data-tag-ref=\"item_1448_TAG_6\" data-tag-boundary=\"end\"></span> graph represents this <span id=\"item_1448_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>situation<span class=\"its-tag\" data-tag-ref=\"item_1448_TAG_7\" data-tag-boundary=\"end\"></span>?</p>",
+        "optionlist": {
+          "option": [
+            {
+              "name": "Option A",
+              "val": "<p style=\"\"><img id=\"item_1448_graphics1\" src=\"/static/ari3/items/q1/item_1448_v10_graphics1_png256.png\" width=\"221\" height=\"252\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Option B",
+              "val": "<p style=\"\"><img id=\"item_1448_graphics2\" src=\"/static/ari3/items/q1/item_1448_v10_graphics2_png256.png\" width=\"221\" height=\"252\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Option C",
+              "val": "<p style=\"\"><img id=\"item_1448_graphics3\" src=\"/static/ari3/items/q1/item_1448_v10_graphics3_png256.png\" width=\"221\" height=\"252\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            },
+            {
+              "name": "Option D",
+              "val": "<p style=\"\"><img id=\"item_1448_graphics4\" src=\"/static/ari3/items/q1/item_1448_v10_graphics4_png256.png\" width=\"221\" height=\"252\" style=\"vertical-align:baseline;\" /></p>",
+              "feedback": "<p style=\"\">&#xA0;</p>"
+            }
+          ]
+        },
+        "attachmentlist": {
+          "attachment": [
+            {
+              "id": "braillefile2",
+              "type": "PRN",
+              "subtype": "nemeth",
+              "file": "item_1448_enu_nemeth.prn"
+            },
+            {
+              "pass": "true",
+              "id": "aslfile1",
+              "type": "ASL",
+              "subtype": "STEM",
+              "file": "item_1448_ASL_STEM.MP4"
+            }
+          ]
+        },
+        "apipAccessibility": {
+          "accessibilityInfo": {
+            "accessElement": [
+              {
+                "identifier": "ae4",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1448_graphics1",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": { "audioText": "The title of the graph is Coffee Cost. The horizontal axis is titled pounds of coffee. The axis has a range from 0 to 6, increasing in increments of 1. The vertical axis is titled: Cost, in Dollars. The axis has a range from 0 to 6 increasing in increments of 1." }
+                }
+              },
+              {
+                "identifier": "ae5",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1448_graphics2",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": { "audioText": "The title of the graph is Coffee Cost. The horizontal axis is titled pounds of coffee. The axis has a range from 0 to 6, increasing in increments of 1. The vertical axis is titled: Cost, in Dollars. The axis has a range from 0 to 6 increasing in increments of 1." }
+                }
+              },
+              {
+                "identifier": "ae6",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1448_graphics3",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": { "audioText": "The title of the graph is Coffee Cost. The horizontal axis is titled pounds of coffee. The axis has a range from 0 to 6, increasing in increments of 1. The vertical axis is titled: Cost, in Dollars. The axis has a range from 0 to 6 increasing in increments of 1." }
+                }
+              },
+              {
+                "identifier": "ae7",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1448_graphics4",
+                  "type": "Graphic",
+                  "subtype": "Generic"
+                },
+                "relatedElementInfo": {
+                  "readAloud": { "audioText": "The title of the graph is Coffee Cost. The horizontal axis is titled pounds of coffee. The axis has a range from 0 to 6, increasing in increments of 1. The vertical axis is titled: Cost, in Dollars. The axis has a range from 0 to 6 increasing in increments of 1." }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

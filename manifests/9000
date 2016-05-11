@@ -1,0 +1,93 @@
+{	
+	identifier: null,
+	assessment_subject: "MATH",
+	assessment_version: "1",
+	assessment_grade: 5,
+	ari_verion: 1,
+	randomize: false,
+	items: [
+		{	
+			js_files: "/ari/js/standard.js",
+			send_data: "/api/score",
+			identifier: 1598,
+			div: 'container',
+			item_type: "multiple_choice",
+			item_subject: "MATH",
+			item_version: 7,
+			ari_version: 1,
+			order: 1,
+			description: "Cloned from ITS 1490 Community Garden Q1",
+			concept: "What Knowledge Do Students Need to Understand This Concept?",
+			prompt: '<p>Which model of the garden represents four rectangular sections for planting vegetables according to the class plan?</p><p style="">&#xA0;</p><p style="">Each square on the model represents 1 square foot. </p>',
+			answers: [
+				{
+					name: "Option A",
+					value: '<p style=""><img id="item_1598_graphics1" src="/ari/images/item_1598_v7_graphics1_png256.png" width="439" height="328" style="vertical-align:baseline;" /></p>',
+					order: 1
+				},
+				{
+					name: "Option B",
+					value: '<p style=""><img id="item_1598_graphics2" src="/ari/images/item_1598_v7_graphics2_png256.png" width="439" height="328" style="vertical-align:baseline;" /></p>',
+					order: 2
+				},
+				{
+					name: "Option C",
+					value: '<p style=""><img id="item_1598_graphics3" src="/ari/images/item_1598_v7_graphics3_png256.png" width="439" height="332" style="vertical-align:baseline;" /></p>',
+					order: 3
+				},
+				{
+					name: "Option D",
+					value: '<p style=""><img id="item_1598_graphics4" src="/ari/images/item_1598_v7_graphics4_png256.png" width="439" height="332" style="vertical-align:baseline;" /></p>',
+					order: 4
+				},
+
+			]
+		},
+            {
+            js_files: "/ari/js/standard.js",
+            send_data: "/api/score",
+            identifier: 1448,
+            div: 'container',
+            item_type: "multiple_choice",
+            item_subject: "MATH",
+            item_version: 8,
+            ari_version: 1,
+            order: 2,
+            description: "Cloned from ITS 766",
+            concept: "What Knowledge Do Students Need to Understand This Concept?",
+            prompt: '<p style="">Coffee costs $2 <span id="item_1448_TAG_5" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="1"></span>per<span class="its-tag" data-tag-ref="item_1448_TAG_5" data-tag-boundary="end"></span> pound at a coffee shop. <span id="item_1448_TAG_6" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="2"></span>Which<span class="its-tag" data-tag-ref="item_1448_TAG_6" data-tag-boundary="end"></span> graph represents this <span id="item_1448_TAG_7" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="3"></span>situation<span class="its-tag" data-tag-ref="item_1448_TAG_7" data-tag-boundary="end"></span>?</p>',
+            answers: [
+                      {
+                      name: "Option A",
+                      value: '<p style=""><img id="item_1448_graphics1" src="/ari/images/item_1448_v10_graphics1_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 1
+                      },
+                      {
+                      name: "Option B",
+                      value: '<p style=""><img id="item_1448_graphics2" src="/ari/images/item_1448_v10_graphics2_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 2
+                      },
+                      {
+                      name: "Option C",
+                      value: '<p style=""><img id="item_1448_graphics3" src="/ari/images/item_1448_v10_graphics3_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 3
+                      },
+                      {
+                      name: "Option D",
+                      value: '<p style=""><img id="item_1448_graphics4" src="/ari/images/item_1448_v10_graphics4_png256.png" width="221" height="252" style="vertical-align:baseline;" /></p>',
+                      order: 4
+                      },
+                      
+                      ]
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            ]
+}

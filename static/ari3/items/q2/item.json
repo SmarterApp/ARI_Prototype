@@ -1,0 +1,179 @@
+{
+  "itemrelease": {
+    "version": "2.0",
+    "ari_url": "/static/ari3/items/q2/index.html",
+    "id": "1468",
+    "item": {
+      "format": "eq",
+      "version": "18",
+      "bankkey": "187",
+      "associatedpassage": "3691",
+      "attriblist": {
+        "attrib": [
+          {
+            "attid": "itm_item_id",
+            "name": "Item: ITS ID",
+            "val": "1468"
+          },
+          {
+            "attid": "itm_item_subject",
+            "name": "Item: Subject",
+            "val": "MATH"
+          },
+          {
+            "attid": "itm_item_desc",
+            "name": "Item: Item Description",
+            "val": "MA06_PT_CEBOX_Q1"
+          },
+          {
+            "attid": "itm_FTUse",
+            "name": "Fieldtest Use",
+            "val": "PracTest::MG6::Perf::SP13 (1); PracTest::MG6::Perf::SP13::BRAILLE (1); PracTest::MG6::Perf::SP13::ENU::Refresh (1); PracTest::MG6::Perf::SP13::BRL::Refresh (1); PracTest::MG6::Perf::SP13::ESN::Refresh (1);"
+          },
+          {
+            "attid": "itm_OPUse",
+            "name": "Operational Use"
+          },
+          {
+            "attid": "itm_att_Answer Key",
+            "name": "Item: Answer Key",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Grade",
+            "name": "Item: Grade",
+            "val": "6",
+            "desc": "6"
+          },
+          {
+            "attid": "itm_att_Item Format",
+            "name": "Item: Item Format",
+            "val": "EQ"
+          },
+          {
+            "attid": "itm_att_Page Layout",
+            "name": "Item: Page Layout",
+            "val": "21"
+          },
+          {
+            "attid": "itm_att_Response Type",
+            "name": "Item: Response Type",
+            "val": "EquationEditor"
+          },
+          {
+            "attid": "itm_att_Item Point",
+            "name": "Item: Item Point",
+            "val": "1 pt."
+          },
+          {
+            "attid": "stm_pass_id",
+            "name": "Stim: ITS ID",
+            "val": "3691"
+          }
+        ]
+      },
+      "tutorial": {
+        "id": "1074",
+        "bankkey": "187"
+      },
+      "resourceslist": {
+        "resource": {
+          "type": "wordList",
+          "id": "1623",
+          "index": "1",
+          "bankkey": "187"
+        }
+      },
+      "MachineRubric": { "filename": "Item_1468_v18.qrx" },
+      "RendererSpec": { "filename": "Item_1468_v18.eax" },
+      "content": [
+        {
+          "language": "ENU",
+          "version": "2.0",
+          "approvedVersion": "18",
+          "stem": "<p style=\"\">Determine the volume of the <span id=\"item_1468_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>current<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_9\" data-tag-boundary=\"end\"></span> <span id=\"item_1468_TAG_15\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"8\"></span>cereal<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_15\" data-tag-boundary=\"end\"></span> box with the <span id=\"item_1468_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>dimensions<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_10\" data-tag-boundary=\"end\"></span> 12 inches <span id=\"item_1468_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>high<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_11\" data-tag-boundary=\"end\"></span>, 8 inches <span id=\"item_1468_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>wide<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_12\" data-tag-boundary=\"end\"></span>, and 2 inches <span id=\"item_1468_TAG_13\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>deep<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_13\" data-tag-boundary=\"end\"></span>.</p><p style=\"\"><span id=\"item_1468_TAG_14\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>Find<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_14\" data-tag-boundary=\"end\"></span> the volume, <span style=\"font-style:italic; \">V</span>, in cubic inches, of <span id=\"item_1468_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"7\"></span>each<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_7\" data-tag-boundary=\"end\"></span> box.</p><p style=\"\">Volume of Original Box: <span id=\"item_1468_TAG_1_BEGIN\"><span style=\"font-style:italic; \">V</span> = __ in<span style=\"vertical-align:super; font-size: 58%;\">3</span></span></p>",
+          "rubriclist": {
+            "rubric": {
+              "name": "Rubric ",
+              "val": "<p style=\"\">&#xA0;</p><p style=\"\">Exemplar:</p><p style=\"\">1-point response</p><p style=\"\">&#xA0;</p><p style=\"\">192</p><p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              
+            }
+          },
+          "attachmentlist": {
+            "attachment": [
+              {
+                "id": "braillefile1",
+                "type": "BRF",
+                "subtype": "nemeth",
+                "file": "item_1468_enu_nemeth.brf"
+              },
+              {
+                "pass": "true",
+                "id": "aslfile1",
+                "type": "ASL",
+                "subtype": "STEM",
+                "file": "item_1468_ASL_STEM.MP4"
+              }
+            ]
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae9",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1468_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "V  equals,  blank, cubic inches. From left to right and top to bottom the equation tool reeds, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, point, negative.",
+                    "textToSpeechPronunciationAlternate": "V = __ in3"
+                  },
+                  "brailleText": { "brailleTextString": "V = __ in3" }
+                }
+              }
+            }
+          }
+        },
+        {
+          "language": "ESN",
+          "version": "2.0",
+          "approvedVersion": "18",
+          "stem": "<p style=\"\">Determina el volumen de la caja de cereal actual con dimensiones de 12 pulgadas de altura, 8 pulgadas de ancho y 2 pulgadas de profundidad.</p><p style=\"\">&#xA0;</p><p style=\"\">Encuentra el volumen, <span style=\"font-style:italic; \">V</span>, en pulgadas cúbicas, de cada caja.</p><p style=\"\">&#xA0;</p><p style=\"\">Volumen de la caja original: <span style=\"font-style:italic; \">V</span> = __ pulg<span style=\"vertical-align:super; font-size: 58%;\">3</span></p><p class=\"languagedivider\">&#xA0;</p><p style=\"\">Determine the volume of the <span id=\"item_1468_TAG_9\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"1\"></span>current<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_9\" data-tag-boundary=\"end\"></span> <span id=\"item_1468_TAG_15\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"8\"></span>cereal<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_15\" data-tag-boundary=\"end\"></span> box with the <span id=\"item_1468_TAG_10\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"2\"></span>dimensions<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_10\" data-tag-boundary=\"end\"></span> 12 inches <span id=\"item_1468_TAG_11\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"3\"></span>high<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_11\" data-tag-boundary=\"end\"></span>, 8 inches <span id=\"item_1468_TAG_12\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"4\"></span>wide<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_12\" data-tag-boundary=\"end\"></span>, and 2 inches <span id=\"item_1468_TAG_13\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"5\"></span>deep<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_13\" data-tag-boundary=\"end\"></span>.</p><p style=\"\">&#xA0;</p><p style=\"\"><span id=\"item_1468_TAG_14\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"6\"></span>Find<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_14\" data-tag-boundary=\"end\"></span> the volume, <span style=\"font-style:italic; \">V</span>, in cubic inches, of <span id=\"item_1468_TAG_7\" class=\"its-tag\" data-tag=\"word\" data-tag-boundary=\"start\" data-word-index=\"7\"></span>each<span class=\"its-tag\" data-tag-ref=\"item_1468_TAG_7\" data-tag-boundary=\"end\"></span> box.</p><p style=\"\">&#xA0;</p><p style=\"\">Volume of Original Box: <span id=\"item_1468_TAG_1_BEGIN\"><span style=\"font-style:italic; \">V</span> = __ in<span style=\"vertical-align:super; font-size: 58%;\">3</span></span></p>",
+          "rubriclist": {
+            "rubric": {
+              "scorepoint": "_Spanish",
+              "name": "Rubric _Spanish",
+              "val": "<p style=\"\">&#xA0;</p>"
+            },
+            "samplelist": {
+              "maxval": "_Spanish",
+              "minval": "_Spanish"
+            }
+          },
+          "apipAccessibility": {
+            "accessibilityInfo": {
+              "accessElement": {
+                "identifier": "ae9",
+                "contentLinkInfo": {
+                  "itsLinkIdentifierRef": "item_1468_TAG_1_BEGIN",
+                  "type": "Text"
+                },
+                "relatedElementInfo": {
+                  "readAloud": {
+                    "textToSpeechPronunciation": "V  equals,  blank, cubic inches.  From left to right and top to bottom the equation tool reeds, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, point, negative.",
+                    "textToSpeechPronunciationAlternate": "V = __ in3"
+                  },
+                  "brailleText": { "brailleTextString": "V = __ in3" }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+

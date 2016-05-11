@@ -1,0 +1,38 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<link rel="import" href="/static/ari3/we/item-body.html">
+
+<dom-module id="type-ebsr">
+
+	<link rel="import" type="css" href="type-ebsr.css">
+
+	<template>
+
+		<div id="itemQuestion"></div>
+
+
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'type-ebsr',
+			properties: {
+          		data: Object,
+        	},
+			ready: function() {
+				this.question = null;
+				this.choices = [];
+
+			},
+			attached: function() {
+				console.log (this.data.json.itemrelease.item.content.qti);
+				this.$.itemQuestion.innerHTML = this.data.json.itemrelease.item.content.qti;
+			},
+		});
+
+	</script>
+
+</dom-module>
+
+

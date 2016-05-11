@@ -1,0 +1,35 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="type-nl">
+
+	<link rel="import" type="css" href="type-nl.css">
+
+	<template>
+
+		<div id="itemQuestion"></div>
+		<div class="itemOptionsArea">
+			<textarea class="itemNLTextArea"></textarea>
+		</div>
+
+
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'type-nl',
+			properties: {
+          		data: Object,
+        	},
+			created: function() {
+				this.question = null;
+			},
+			attached: function() {
+				this.$.itemQuestion.innerHTML = this.data.json.itemrelease.item.content[0].stem;
+			},
+		});
+
+	</script>
+
+</dom-module>
+

@@ -1,0 +1,46 @@
+{	
+	identifier: null,
+	assessment_subject: "MATH",
+	assessment_version: "1",
+	assessment_grade: 5,
+	ari_verion: 1,
+	randomize: false,
+	items: [
+		{	
+			js_files: "/ari/js/standard.js",
+			send_data: "/api/score",
+			identifier: 1598,
+			div: 'container',
+			item_type: "multiple_choice",
+			item_subject: "MATH",
+			item_version: 7,
+			ari_version: 1,
+			order: 1,
+			description: "Cloned from ITS 1490 Community Garden Q1",
+			concept: "What Knowledge Do Students Need to Understand This Concept?",
+			prompt: '<p>Which model of the garden represents four rectangular sections for planting vegetables according to the class plan?</p><p style="">&#xA0;</p><p style="">Each square on the model represents 1 square foot. </p>',
+			answers: [
+				{
+					name: "Option A",
+					value: '<p style=""><img id="item_1598_graphics1" src="/ari/images/item_1598_v7_graphics1_png256.png" width="439" height="328" style="vertical-align:baseline;" /></p>',
+					order: 1
+				},
+				{
+					name: "Option B",
+					value: '<p style=""><img id="item_1598_graphics2" src="/ari/images/item_1598_v7_graphics2_png256.png" width="439" height="328" style="vertical-align:baseline;" /></p>',
+					order: 2
+				},
+				{
+					name: "Option C",
+					value: '<p style=""><img id="item_1598_graphics3" src="/ari/images/item_1598_v7_graphics3_png256.png" width="439" height="332" style="vertical-align:baseline;" /></p>',
+					order: 3
+				},
+				{
+					name: "Option D",
+					value: '<p style=""><img id="item_1598_graphics4" src="/ari/images/item_1598_v7_graphics4_png256.png" width="439" height="332" style="vertical-align:baseline;" /></p>',
+					order: 4
+				},
+
+			]
+		}]
+}

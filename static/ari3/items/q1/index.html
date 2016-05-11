@@ -1,0 +1,65 @@
+<link rel="import" href="/static/ari3/bower_components/polymer/polymer.html">
+
+<dom-module id="item-element-1448">
+
+	<link rel="import" type="css" href="style.css">
+
+	<template>
+		<div id="itemQuestion"></div>
+		<div id="itemOptions">
+			<div class="itemOptionsNewLine">
+				<div class="itemOptionsGroup" id="options1" on-click="itemSelected"></div>
+				<div class="itemOptionsGroup" id="options2" on-click="itemSelected"></div>
+			</div>
+			<div class="itemOptionsNewLine">
+				<div class="itemOptionsGroup" id="options3" on-click="itemSelected"></div>
+				<div class="itemOptionsGroup" id="options4" on-click="itemSelected"></div>
+			</div>
+
+		</div>
+	</template>
+
+	<script>
+		Polymer({
+			is: 'item-element-1448',
+			properties: {
+				test: Object
+			},
+			ready: function() {
+				this.fire('ariItemStatus', {data: {'status':'loading'}});
+				var me = this;
+				this.question = "";
+				this.item = "";
+
+				$.getJSON('/static/ari3/items/q1/item.json',function(data){
+					me.processJSON(data);
+				});
+
+			},
+			processJSON: function(data) {
+				this.item = data.itemrelease.item;
+				console.log(data.itemrelease.item);
+				this.question = this.item.content.stem;
+				this.options = this.item.content.optionlist.option;
+				this.$.itemQuestion.innerHTML = this.question;
+
+				this.$.options1.innerHTML = this.options[0].val;
+				this.$.options2.innerHTML = this.options[1].val;
+				this.$.options3.innerHTML = this.options[2].val;
+				this.$.options4.innerHTML = this.options[3].val;
+
+				this.fire('ariItemStatus', {data: {'status':'ready'}});
+			},
+			itemSelected: function(event, detail, sender){
+				this.itemDone();
+			},
+			itemDone: function() {
+				this.fire('ariItemStatus', {data: {'status':'done'}});
+				this.remove();
+			},
+		});
+	</script>
+
+	</dom-module>
+
+
